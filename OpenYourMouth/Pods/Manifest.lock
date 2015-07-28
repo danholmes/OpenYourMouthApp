@@ -1,0 +1,25 @@
+PODS:
+  - DZNEmptyDataSet (1.6.1)
+  - jot (0.1.3):
+    - Masonry (~> 0.6.1)
+  - Masonry (0.6.2)
+  - Ophiuchus (1.0.3)
+  - PullToMakeSoup (1.0)
+  - YALSideMenu (1.0)
+
+DEPENDENCIES:
+  - DZNEmptyDataSet
+  - jot
+  - Ophiuchus (~> 1.0.3)
+  - PullToMakeSoup (~> 1.0)
+  - YALSideMenu
+
+SPEC CHECKSUMS:
+  DZNEmptyDataSet: 3d31c27758230f03c71199f8c522bcfa99fba16c
+  jot: 86da410a8bd544860166d5617707f3b2a8f0e4a1
+  Masonry: 362e8a1cc0beada4a4c4832d5e863da2a51533be
+  Ophiuchus: 486de58f85284047835a26e23ac9fe4fe2255391
+  PullToMakeSoup: 3c5b771495bb6bd11fdce4ca7bc55aa1166b8ecf
+  YALSideMenu: 87fd2d758bf0afefd034d7d1b7c87af7005a59ee
+
+COCOAPODS: 0.38.2

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>ACA077BC-71D6-4637-806D-ED1300584E94</string>
+	<key>IDESourceControlProjectName</key>
+	<string>OpenYourMouth</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>B10DEC7F80B2E4149E6E6A36B003F6AD020F074E</key>
+		<string>https://github.com/danholmes/OpenYourMouthApp.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>OpenYourMouth/OpenYourMouth.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>B10DEC7F80B2E4149E6E6A36B003F6AD020F074E</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/danholmes/OpenYourMouthApp.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>B10DEC7F80B2E4149E6E6A36B003F6AD020F074E</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B10DEC7F80B2E4149E6E6A36B003F6AD020F074E</string>
+			<key>IDESourceControlWCCName</key>
+			<string>OpenYourMouthApp</string>
+		</dict>
+	</array>
+</dict>
+</plist>

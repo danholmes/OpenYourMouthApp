@@ -1,0 +1,6 @@
+use_frameworks!
+pod 'PullToMakeSoup', '~> 1.0'
+pod 'YALSideMenu'
+pod 'Ophiuchus', '~> 1.0.3'
+pod "jot"
+pod 'DZNEmptyDataSet'

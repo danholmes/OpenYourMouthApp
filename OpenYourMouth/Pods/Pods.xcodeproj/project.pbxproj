@@ -1,0 +1,1977 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01CF171D31620361FFE90107C7827ED6 /* Flames0044.png in Resources */ = {isa = PBXBuildFile; fileRef = 47968B017411FF655509B4CEC7766679 /* Flames0044.png */; };
+		04717F4DB8F473CD0E8FF7DEC24AA163 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C814041A9B2334C05611EC6529AFE1 /* NSArray+MASAdditions.m */; };
+		04E7F2503FAE0C261B56E64F4DB0A23D /* YALSideMenu-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D6CF920EC2418CD379B8FF4DFAED872 /* YALSideMenu-dummy.m */; };
+		07383EE5EBF402ABD4A655F393AF4EB0 /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E551A37BEAACE4D40DA86E44CFA80263 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		08174D25CC1AE87ABA70AA7EF2917116 /* Flames0018.png in Resources */ = {isa = PBXBuildFile; fileRef = 94AE03475F33AA915D77369B89FE6D75 /* Flames0018.png */; };
+		09730E88974DCD4D09E75F5A61244BA9 /* Flames0016.png in Resources */ = {isa = PBXBuildFile; fileRef = B640F71AB25F3434AC56CC94F8216BF3 /* Flames0016.png */; };
+		09CFD8B679A80233CA7CBA0A072E6F61 /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = BB076D6773BAC77FE0DADC91A13BBA34 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		09F5A411434E581499D9AC326EFEDF10 /* UIBezierPath+YAL_Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = 42C8B2E55277C268AF660FED012D3ED0 /* UIBezierPath+YAL_Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0B86D8C1455CBE3C24D8096338F90B07 /* YALSideMenu-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 862ECB0FFD653141E3D0340CDA86733D /* YALSideMenu-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C2954F5D58DB5858AD7BCA1AC68A6CE /* DZNEmptyDataSet-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B604E9E197B89C1B3B19ECBD6DFAB265 /* DZNEmptyDataSet-dummy.m */; };
+		0E6DD62B6C8E8436E78F70DA832AD654 /* JotTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AEEE5A2E8520AAE21F51536D4B88161 /* JotTextView.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		12BBE8FAC88BCD77136DC0C339F517AE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A2C46A4FEB73519C0E5D8DB0B4FC2D1 /* NSLayoutConstraint+MASDebugAdditions.m */; };
+		13B8111545E4A3F85725E8B422732D3A /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 0062F28EC7A00BDA2CA9C06AD3E2548E /* Masonry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13FE3E8A6E6CC22AFAD57FB4EE7683AF /* Flames0012.png in Resources */ = {isa = PBXBuildFile; fileRef = A7FE856DBD1CCDB6F15A3DC095C014ED /* Flames0012.png */; };
+		17ECA8DD9E8527D466DBBB9665C1D060 /* MenuItemsAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCAD6BA0A73947B0A19990BEC66DB21 /* MenuItemsAnimator.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		17EDC5B9EB0B022B50F13C7B6087F482 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 45CB2813876853A56954AE797A2DF70C /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		198107FFA54981A9B55137161E505881 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = E473D0B3508F4086568B145916F42A0E /* View+MASAdditions.m */; };
+		1A06FC34E46B6BA4C4732B626E149A93 /* UIScrollView+EmptyDataSet.h in Headers */ = {isa = PBXBuildFile; fileRef = 78BF284936E0009D8C14C0F818674FCD /* UIScrollView+EmptyDataSet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1AFF138E886A713235E379FABAA1C63B /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = CE9838B5B8EE4CE0F7660E3D99DEDC07 /* MASViewConstraint.m */; };
+		1C4BD6B4082EACD37C4F6BF087ACDEAD /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 97B45A4A5445CA57417D6E73D5C77918 /* MASConstraint.m */; };
+		1F3E49768B06CAF90E8F69081CDB65CA /* JotDrawView.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C93502BD08722AB5D6AF7CC55C2A448 /* JotDrawView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1FF86800E22E73EBF16DB2EA9C599965 /* jot-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B1938D92544D68350328B16C34628D1 /* jot-dummy.m */; };
+		201E9C12D13980DE6FEE89F1B7C77C92 /* Flames0036.png in Resources */ = {isa = PBXBuildFile; fileRef = 88C784C190505F53E6406FB49E40D997 /* Flames0036.png */; };
+		20C3A2F2925898E0B4EF7CD4AFB6CA23 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = C435C3D635029CCE34C9F796AE35E79F /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		230C7D61488F9CF6051892D9BA830F4E /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = 72CFE101EB6376D5AEE805439F645731 /* MASUtilities.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		245D9449BA62B0B0B5023454E1E33AEA /* JotTouchBezier.h in Headers */ = {isa = PBXBuildFile; fileRef = 83F591B2F137366A23B023663DAA1834 /* JotTouchBezier.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		285FE1A54B5EBC737CDCDB49542F5B74 /* carrot@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 909F8115515F1ECE12D93DD3E5BDB361 /* carrot@2x.png */; };
+		2CAF61FD87A10F771AA58FBB7F5C5F9C /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 63C8C7020CE81A0B533EF5CC52AFDE97 /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CCD371E07D1FE7CC8782CEA08C0E760 /* Ophiuchus-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F2CD38AA2D6F4B8964B3430AB4D9F96B /* Ophiuchus-dummy.m */; };
+		2E61A93D5C432B490C2E60795C346388 /* Flames0060.png in Resources */ = {isa = PBXBuildFile; fileRef = A9EB08D81EE86EC2E4349902ABD80CE9 /* Flames0060.png */; };
+		2F30A375311614745A7B0355000D5673 /* JotTouchPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 15661B5316ADC8D4399E8F2DA9A4D20A /* JotTouchPoint.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		2F40A8906E12AD174741A3A97476664A /* JotViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 50B721E67F3A17A892C44BFC8C0A54C4 /* JotViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		31ADBD5E21F1F6D566C80004FBFDAC86 /* Flames0078.png in Resources */ = {isa = PBXBuildFile; fileRef = 41109A5288ED4D652F0FD839C2032BDE /* Flames0078.png */; };
+		345A132E8D86F4E6343C11D666E9435C /* Flames0050.png in Resources */ = {isa = PBXBuildFile; fileRef = 7C14F91A8BA91B621B330B7784C14B6D /* Flames0050.png */; };
+		35450FF4800CEB4E231DDC0E6D437D4F /* cover-path-only.svg in Resources */ = {isa = PBXBuildFile; fileRef = C109A0C66B766BE9231785E6F18ACC75 /* cover-path-only.svg */; };
+		361504065C1D17688DAFC6FFE12F7BB7 /* Masonry-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E29E8E766433AD7B09D82BAD30E5B70 /* Masonry-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3793D1B43E71BBEA23FBF2DD89481989 /* UIScrollView+EmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 869A95F54C2EEB913D56F9CEBEF3FD00 /* UIScrollView+EmptyDataSet.m */; };
+		39163B3C1E7F6EC067BCC397DE751A17 /* cover@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DA20CFA041DF3B6523791C16710ECB6 /* cover@2x.png */; };
+		392A4CA893AA65192F11F3811550C907 /* PullToMakeSoup.h in Headers */ = {isa = PBXBuildFile; fileRef = 65AE50FB0AE8B9F3CB046AEB62EB01DB /* PullToMakeSoup.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3CE02B144E8E7B58756C546C0684AA23 /* Flames0047.png in Resources */ = {isa = PBXBuildFile; fileRef = 053CEA473A940DFA8B89A1F4F1DFAD0D /* Flames0047.png */; };
+		406CB1BF048B8A38EE1970D1500BD3A7 /* YALPathFillAnimation.h in Headers */ = {isa = PBXBuildFile; fileRef = 598EB0C2A5E873BC523A6199BE7D724F /* YALPathFillAnimation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4084E6E6BA99DEAFDE82B5DC7D21AE41 /* YALLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7163A0672D9704B62D2B01FBB941299B /* YALLabel.m */; };
+		427DCD38DA146F21D6AE432EDDD8F3F3 /* jot.h in Headers */ = {isa = PBXBuildFile; fileRef = 74F69857DF1C26775141C6BAFAD2F053 /* jot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42AA0E917D0A27170D6C23296ED97C08 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E885637FCD64FDC0A1489EBB09ECC8 /* Foundation.framework */; };
+		42D4B4111270F9958464BC0F15C30409 /* Flames0061.png in Resources */ = {isa = PBXBuildFile; fileRef = E7D1D3E2C518C3FB4085B56F34F2E06F /* Flames0061.png */; };
+		43A6EFC3E69E76E58D31CC70B9B96F51 /* YALTextLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = 75B1DB065CFADD8AC959C2AED28D931F /* YALTextLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		45A36A08551B4A6B07D36BD99C325E64 /* Flames0064.png in Resources */ = {isa = PBXBuildFile; fileRef = A4F062A3072AC19D12D225A0900D1A4A /* Flames0064.png */; };
+		45E0D504C7E441A98AC979D368E7D100 /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 67953A8704F9867521C0267E8D5198DB /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47204EF20BD2E7E7CC7C28451D8ACEC5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E885637FCD64FDC0A1489EBB09ECC8 /* Foundation.framework */; };
+		47876D840024D24FEDA0F3468F194C6A /* UIImage+Jot.h in Headers */ = {isa = PBXBuildFile; fileRef = C2BC66C1346145240AC82C31C8B87ED3 /* UIImage+Jot.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48426317524DCCD98765CF132742F8B9 /* pea-from-left-path-only.svg in Resources */ = {isa = PBXBuildFile; fileRef = 4C195C773C4A1D8592C8DBB22EFD16F5 /* pea-from-left-path-only.svg */; };
+		487B1FECC0F102EFA7BAA866648D890A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2279BA5B85798134DE15308191723CF9 /* UIKit.framework */; };
+		48BFF88C9DF6AE99DB13ADAD85572C9F /* Flames0022.png in Resources */ = {isa = PBXBuildFile; fileRef = DF9F11C18B3A08ED941F1279F980EAF5 /* Flames0022.png */; };
+		499986BAD89B1E5204E3EF005488FA4C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE2257599AC7CB4B26B5B143151D5E92 /* CoreGraphics.framework */; };
+		4D76FA03DDD605503F07569D9D346950 /* PocketSVG.h in Headers */ = {isa = PBXBuildFile; fileRef = 3FF30BD899326A1F58C44586B6EBFB18 /* PocketSVG.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4FAD24CE46BBF44DE8E3BFF73353473C /* jot-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C426F598E861900F1DCD0BBACDF9A26 /* jot-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		518CCA89DD9C02CCC7B4B37FE17FA355 /* Flames0029.png in Resources */ = {isa = PBXBuildFile; fileRef = F0C06D5E965FCF2EBE9528ED5D52B6DA /* Flames0029.png */; };
+		51F6AB6AA08D7304BFEDB90DB1D8B67A /* CAKeyframeAnimation+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC3D195E4C62AD941A6B7991C58F0089 /* CAKeyframeAnimation+Extensions.swift */; };
+		536BDAE110B8AC4614849BD344A5E6F0 /* Flames0066.png in Resources */ = {isa = PBXBuildFile; fileRef = F6D53B6D928BD46EB8DF9DA0DB678820 /* Flames0066.png */; };
+		53E0542B4739FE897BA68E038EBE9E9A /* Flames0025.png in Resources */ = {isa = PBXBuildFile; fileRef = 0A769CB40A59522987CA762C9FB8113B /* Flames0025.png */; };
+		5472301D3FCB780F9149578993BE6F02 /* pan@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 688F032DF3C7D37E8280537F1E94AF92 /* pan@2x.png */; };
+		55E04D740258182D60A9376C94BBEA78 /* Flames0030.png in Resources */ = {isa = PBXBuildFile; fileRef = 494874060877B3CA9ED98067B9390265 /* Flames0030.png */; };
+		58445119A9345E924DC990C45611A5B8 /* Flames0015.png in Resources */ = {isa = PBXBuildFile; fileRef = 0FBF2E1FF913321A4F8EDBFA321B80BF /* Flames0015.png */; };
+		5887A7410A2DE10AE46430CDD5E90095 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 711379BE40398BDB6852F995ACAC5F81 /* CoreText.framework */; };
+		594D34110D268905F5F032E00D0C7AA7 /* Flames0008.png in Resources */ = {isa = PBXBuildFile; fileRef = 6789A3ED1C6678139AF1E13251BBC4B2 /* Flames0008.png */; };
+		59B52DD94785053833ADB888C937FFFB /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C75BB87138FA0B6ABAD350B1448532BE /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5B5FB1A57F21E0511213CF6DF96F0BFE /* Flames0056.png in Resources */ = {isa = PBXBuildFile; fileRef = F3242C3BA874CA5FB902F95E57C03320 /* Flames0056.png */; };
+		5B7E1F1851C1E21A8D7198220B034A52 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB50D18C4F861A587E8DC50B7AAEB85 /* MASLayoutConstraint.m */; };
+		5F7DA685DF0F206C28F07301E5085439 /* Flames0011.png in Resources */ = {isa = PBXBuildFile; fileRef = C1041ABA9B4C17F65B6BC76E77E270B3 /* Flames0011.png */; };
+		600BD2F320E22E21E7B8FA4EB00421D8 /* Flames0026.png in Resources */ = {isa = PBXBuildFile; fileRef = A36661E4511A79A80B04F63816E90469 /* Flames0026.png */; };
+		609E93DB656B22E4F0188B6F296466EB /* Flames0043.png in Resources */ = {isa = PBXBuildFile; fileRef = 61799EDD5830D55E71AD1639349D55D2 /* Flames0043.png */; };
+		6260A260073C94912E284CDE469C9876 /* Flames0037.png in Resources */ = {isa = PBXBuildFile; fileRef = 3A2C5F36CFE88279F7F02CBCB1A3CAB1 /* Flames0037.png */; };
+		672FF772D8B06B25009D80EFD651FBAD /* Flames0058.png in Resources */ = {isa = PBXBuildFile; fileRef = 7608AB88E7A269A609A322AF60884454 /* Flames0058.png */; };
+		69FD85FC84D2792D0621988D0236D9EB /* carrot-path-only.svg in Resources */ = {isa = PBXBuildFile; fileRef = B6E7BD1A1DB1D34000C30708F362DA87 /* carrot-path-only.svg */; };
+		6A4AD21519E80E78FBA43A79B37DB73A /* Flames0039.png in Resources */ = {isa = PBXBuildFile; fileRef = 8625A3D60315691FCC6FAA31801F7BFB /* Flames0039.png */; };
+		6B0F650EB0E75582C0ADC426CA7BBE6D /* Flames0024.png in Resources */ = {isa = PBXBuildFile; fileRef = 53190AFC283AB1B05F1D19773FED4272 /* Flames0024.png */; };
+		6D96B2632D49AF049DAC225DB0D1BC2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E885637FCD64FDC0A1489EBB09ECC8 /* Foundation.framework */; };
+		6DC0563BF5707A7BCD2AA321055355F6 /* Flames0065.png in Resources */ = {isa = PBXBuildFile; fileRef = 9544C92505C9EAE3D6225DCE1A03C91E /* Flames0065.png */; };
+		6E69CD324E8562012C7CB8D77AF604D7 /* Flames0076.png in Resources */ = {isa = PBXBuildFile; fileRef = B20881A7C60A50088E6E868F2F10C3CE /* Flames0076.png */; };
+		6E862E5DC5C20167B658ADDB78174C78 /* MenuTransitionAnimator.swift in Sources */ = {isa = PBXBuildFile; fileRef = B740A2D3160DB4D18C57962AE319F607 /* MenuTransitionAnimator.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		7086FAE213009F655CEECBA226867420 /* Flames0052.png in Resources */ = {isa = PBXBuildFile; fileRef = DB807AB9BC8EBE5F3F11D4345C83B3E6 /* Flames0052.png */; };
+		71E2AA8543900FD783FD6EF223CE5BA1 /* Flames0035.png in Resources */ = {isa = PBXBuildFile; fileRef = C4A626B4E43864993A939BD46E3B4063 /* Flames0035.png */; };
+		746A1233973DB075422EF22B6A9B99F5 /* JotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A73249B3633356D341BA4423734AFA2 /* JotViewController.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		7641D9015A5601A5882FA50F2AAD2C67 /* Flames0004.png in Resources */ = {isa = PBXBuildFile; fileRef = 382D06469A1E46A37EB5C0172A44F01E /* Flames0004.png */; };
+		7686AB4075665DAA9F35295FB837C358 /* PullToMakeSoup-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7564DC0E3F74714C645DC29CC5C41279 /* PullToMakeSoup-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78714F2E00859BB5123EFC1107B72218 /* Masonry.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 361C993FDBDC1080843B1C72C121E80C /* Masonry.framework */; };
+		7BD95E043ACE826D3A5ABE4010C6105E /* Flames0042.png in Resources */ = {isa = PBXBuildFile; fileRef = FE0C8604E6926440B65794ED8F058261 /* Flames0042.png */; };
+		7E95B622590F64EBBA07AE1A49EBD372 /* JotTextEditView.h in Headers */ = {isa = PBXBuildFile; fileRef = C968357B25D0AAB9DD038ED861E171C4 /* JotTextEditView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7F2A4CD551DEE975FF2BB0F90DFB79FE /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 257CD8130DAA5520398F928DA4B99E35 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8011EC82A4B01F61BEFEADC497779BE0 /* Flames0002.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D6B81C59B5EF32E3E2AC2B8D50BCDB5 /* Flames0002.png */; };
+		80202ABB0ECBA7C4762F2EF5801983EA /* JotTouchBezier.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A1C44DD11AEBFC19D0CF41C5209F60 /* JotTouchBezier.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		81160E68DA90F1440F59461C53166D14 /* Flames0006.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EE258984741CF080D6E166B85561EEA /* Flames0006.png */; };
+		811B27CCACBCC7DE2C2AA962DEB8D184 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 22169BAA40B7BC7131BF993B45045DA1 /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		824862B9329FF8D76385C4AFC5651201 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = DD4B9AF86384C4A78D3814DF6EFE667F /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		831A62FD7E3FBCBC6F813662E1935295 /* JotDrawingContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 27B6DE2CCE4201D11554747D7A48EAF6 /* JotDrawingContainer.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		8561EB3867F72BB2B5ED79767EE7C455 /* Flames0001.png in Resources */ = {isa = PBXBuildFile; fileRef = 65410662B61471D953F2FFA302A5EF71 /* Flames0001.png */; };
+		862FA302C1D9ADB7EC6BD1859CB68854 /* pea-from-right-path-only.svg in Resources */ = {isa = PBXBuildFile; fileRef = 5AE39EB8B663258843222130D873D541 /* pea-from-right-path-only.svg */; };
+		86AEA756CB2B9775B5297E660BED943A /* Flames0072.png in Resources */ = {isa = PBXBuildFile; fileRef = F45A3F5B22998C08B803C21C3CE8CA47 /* Flames0072.png */; };
+		8A13B17E1CFCABF6D1EEBF4288B1A96C /* Flames0007.png in Resources */ = {isa = PBXBuildFile; fileRef = 4934078ABFE3196E2A6577DC33940478 /* Flames0007.png */; };
+		8A18F28F03AD2CCAA2E8E88EFD1AE26F /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 392E36A7404B111C5F0181923144A056 /* ViewController+MASAdditions.m */; };
+		8BBEF89B554895CB81787DEB7938AA77 /* Flames0069.png in Resources */ = {isa = PBXBuildFile; fileRef = C6EF41B9C61F12FAF954722B1BC94485 /* Flames0069.png */; };
+		8E51E2FDB04196BCEB7CD29C720C22DD /* Flames0051.png in Resources */ = {isa = PBXBuildFile; fileRef = 9D7640E1740E6C99C8E2F513DD0EE99A /* Flames0051.png */; };
+		8E6A3CEDD5CC7A32FB22815F42C200FA /* Flames0021.png in Resources */ = {isa = PBXBuildFile; fileRef = A6A5B950FF6C7E3D598B9F55D494A492 /* Flames0021.png */; };
+		8EAA3F859FDDC5A8462414380CD3655A /* Flames0075.png in Resources */ = {isa = PBXBuildFile; fileRef = B6104F85C3B2185FBCEAA9EADE663028 /* Flames0075.png */; };
+		90FD4CAF176379EBE0351C00130B6468 /* Flames0009.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F572C019B1D20D5EE6E65685CAB2E41 /* Flames0009.png */; };
+		9148F8D5C0B564946B953236EFD71DD7 /* Flames0057.png in Resources */ = {isa = PBXBuildFile; fileRef = C07F477B2CEAB5B7563B5ECE149B2E0E /* Flames0057.png */; };
+		92748B2B843BC9D97AA47D6E59E867D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E885637FCD64FDC0A1489EBB09ECC8 /* Foundation.framework */; };
+		928D7D251D137E5977A01335E1C4E63C /* Flames0031.png in Resources */ = {isa = PBXBuildFile; fileRef = DBDBC9CA950046A0A60E5C3B7FA80278 /* Flames0031.png */; };
+		92989324CBE155F9AB65A0ECB1494818 /* Flames0062.png in Resources */ = {isa = PBXBuildFile; fileRef = 95CFDC9702609533BC36784E290B4340 /* Flames0062.png */; };
+		93BA2E87A3AFB3EB43638C82562B08F1 /* MenuSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE42C966090BA0D9E0FBAFCA20EF4962 /* MenuSegue.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		9402A6298B510E0B0D45A04298B01944 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = A172C562C2D682442C73A5D578C059E4 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9624068533742D5B5CD0FC672B4CB222 /* Flames0014.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B121CC94DE71A442A29F459B53DE46F /* Flames0014.png */; };
+		97485BE55B54DA24AF439C2495DC4B67 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DB39E116CB3C6726B3ACB3A8A6CA401 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		97845F24C0FA5E272A1A03EE6D9F6A27 /* PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DCB7E24BB590101FF7BE723B7C654CB /* PullToRefresh.swift */; };
+		9A9F45B09C11724C8D26E2BAE51E5E2E /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BF781FD1A4088EDFCFD36D538E7DEA0 /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D0B0916552872E69E036D22802BC107 /* Flames0017.png in Resources */ = {isa = PBXBuildFile; fileRef = 4BAC490812F4EFEB9D0355F2D71ADBCE /* Flames0017.png */; };
+		9DB2764BA87C51CF550A9603B3250180 /* UIImage+Jot.m in Sources */ = {isa = PBXBuildFile; fileRef = CE30BF3C76E85BD570A4E661B5B96CA9 /* UIImage+Jot.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		A3DFBACBF215D9FC8EE39D9F743AAE8E /* Flames0055.png in Resources */ = {isa = PBXBuildFile; fileRef = 10D0C49BB323337A307B207A43CD2523 /* Flames0055.png */; };
+		A7E0A14F964DCADE8FBA6136D62FF4A2 /* Flames0054.png in Resources */ = {isa = PBXBuildFile; fileRef = 4DCBEF5FB0B3319D1C6F1BBCEF576A6F /* Flames0054.png */; };
+		AA560AEBDF83B4C40FD2AC35E2F3A48B /* NSAttributedString+YAL_TextBezierPath.h in Headers */ = {isa = PBXBuildFile; fileRef = B9590D51983B8BB84017D3FAED891991 /* NSAttributedString+YAL_TextBezierPath.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB028ABB62A80B0CB601BF5C8FBCFD88 /* JotDrawingContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C51765E3CCBED0463B3B2B81A18CEB /* JotDrawingContainer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AB8E64FC941906927C7F52C7ACCEC115 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E24710085BDCF19F9CBF8BD91B1E2F6 /* Menu.swift */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		AC9F89A77C95882931609FD0DA473B75 /* Flames0020.png in Resources */ = {isa = PBXBuildFile; fileRef = 1E34DC3C49E0DE6846C42610AF03C9A3 /* Flames0020.png */; };
+		ACB8285444070755B5112D1BA2BED8B1 /* Flames0019.png in Resources */ = {isa = PBXBuildFile; fileRef = 8753CD5DDD58DAF01134F5284055E933 /* Flames0019.png */; };
+		ADF6F7A25DFF8C3F276D7CEBAE99F744 /* Flames0028.png in Resources */ = {isa = PBXBuildFile; fileRef = EA024F41A3BDEEA6289CC62CB32FB65A /* Flames0028.png */; };
+		AE56FBC4A3794AC91EBCCB714755124F /* potato-path-only.svg in Resources */ = {isa = PBXBuildFile; fileRef = 0252BB8C8B5D23363EC6340A1D3339D2 /* potato-path-only.svg */; };
+		AE9626DCF9A8D7821AD74DD975120646 /* YALLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = C490EDA32DDAC3185D245545236162A5 /* YALLabel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AEB16D37899BF5F581641FFE0679ADA2 /* water@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3D6DD280E5D8AFAB50EAE869ACF3F57 /* water@2x.png */; };
+		B190BA3AE92FD1EC14910DB3D2A38A9E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2279BA5B85798134DE15308191723CF9 /* UIKit.framework */; };
+		B46CE232D8FFA85B2DBC4C956DACF8A1 /* potato@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B4D70F14DBC85893C9FC97279F317F2D /* potato@2x.png */; };
+		B4736BC8DBE46D3A4BEFC654AB2F9659 /* Flames0077.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D9D1A23CD4084CE019B42830F62D0D1 /* Flames0077.png */; };
+		B49BE8D1FC8CA5C11806B585FCB4FB60 /* PullToMakeSoup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FA9F69A0630041FAA05170F4A104A2D /* PullToMakeSoup.swift */; };
+		B53678D305BDB5CB7920E335C5FB75E4 /* DZNEmptyDataSet-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D49A79694F0798591D23BE4C47FD7352 /* DZNEmptyDataSet-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B83B7098022BDE18FC349B564262E939 /* Flames0033.png in Resources */ = {isa = PBXBuildFile; fileRef = F0588D9A4CEE7E72739221636BBB6FB9 /* Flames0033.png */; };
+		B97E15970F9E117781F7DB33DF481920 /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CBC7E0B67B9BD23201499C12045669A /* MASCompositeConstraint.m */; };
+		B99E3A4A4EBF1FE2BF10454D0766CA1B /* Flames0063.png in Resources */ = {isa = PBXBuildFile; fileRef = 60F544F23E626883007CC062A979B5E4 /* Flames0063.png */; };
+		BD2CAE7B8A78D8000A721057E3E1FCBA /* YALTextLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = DD8AD07B3410C0D9CC35459BF945EDB3 /* YALTextLayer.m */; };
+		BE622D3D0E5D0C3ACC048C05D8236533 /* JotTextView.h in Headers */ = {isa = PBXBuildFile; fileRef = 401D0EC1A5A796896DEB1BCDB886B851 /* JotTextView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BEE4C6364443F490A524BC66E38FFAE1 /* Flames0074.png in Resources */ = {isa = PBXBuildFile; fileRef = CA92840DA4081F53DB54EB407E81DDA8 /* Flames0074.png */; };
+		BFB52CC4E467874FF9FED0DA600703CA /* Flames0003.png in Resources */ = {isa = PBXBuildFile; fileRef = 6AA47EFC84EB0861E0C45523E1DBB7F6 /* Flames0003.png */; };
+		C123DB30EDF167FFA2E048E52BEE8066 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2279BA5B85798134DE15308191723CF9 /* UIKit.framework */; };
+		C28CD6D6A7AC108198B29C0D203B8908 /* JotDrawView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FB8117D446C8B369FB1E0362139EFD5 /* JotDrawView.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		C3B36BF9DCE82B725B65C794C5F519CC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E885637FCD64FDC0A1489EBB09ECC8 /* Foundation.framework */; };
+		C5F476D8D9ED167937C24A1E777E8D98 /* Flames0023.png in Resources */ = {isa = PBXBuildFile; fileRef = 24B1A182373CCA3AB31B94EBE6732940 /* Flames0023.png */; };
+		C6FBE137AD121B89776CBE6926EFB227 /* Flames0059.png in Resources */ = {isa = PBXBuildFile; fileRef = D09F4D733651D44F5F7182C4BDFC7CD4 /* Flames0059.png */; };
+		C753C2593FA2D774565EAAE9F37956DB /* Flames0068.png in Resources */ = {isa = PBXBuildFile; fileRef = 5F99F094B4C50CF4F35DB28AAE674E26 /* Flames0068.png */; };
+		C8E43D9666455EC077C238AF036AE825 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2279BA5B85798134DE15308191723CF9 /* UIKit.framework */; };
+		CAE120D16B5DD4A6250E9D7CB18F98AF /* SoupView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 51515E477723DB9EBCE696A1F3099C38 /* SoupView.xib */; };
+		CD565D65A5A6A410B6A7480A335EB3F5 /* PullToMakeSoup-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BF46298CD95E4F705E6BF243D95DEF28 /* PullToMakeSoup-dummy.m */; };
+		CDFABF6B63073801C88C775AFA2ECE83 /* JotTextEditView.m in Sources */ = {isa = PBXBuildFile; fileRef = A70C6416E59FC91704999600DCB5AB6F /* JotTextEditView.m */; settings = {COMPILER_FLAGS = "-fmodules"; }; };
+		CFC4C77BB005A8F03782308254FC7C11 /* Flames0010.png in Resources */ = {isa = PBXBuildFile; fileRef = 64D211D4C3CB92E8422A09FE97A1D03F /* Flames0010.png */; };
+		CFE718A281B7738EF8547614105190E7 /* Flames0067.png in Resources */ = {isa = PBXBuildFile; fileRef = 6B94D8282C44F49D9D4D96AE359A7ABB /* Flames0067.png */; };
+		D1AB6B8CBE438B65915D21E513D02D39 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F8373CCB80265C00BFFD99B20490A2D /* MASConstraint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D590876A79F915001E150C75AE2FE762 /* Flames0032.png in Resources */ = {isa = PBXBuildFile; fileRef = CCAC268EC3EC7B558A307DCEDE11903F /* Flames0032.png */; };
+		D76BD58B95160E751F29105C20B388E9 /* UIScrollView+PullToRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3390F84B5BF43C2D5C28626347B86730 /* UIScrollView+PullToRefresh.swift */; };
+		D7969069E087CD2B8A2C2E237F27351F /* Flames0040.png in Resources */ = {isa = PBXBuildFile; fileRef = A117EC2FB51224AB9AB269CE32D54206 /* Flames0040.png */; };
+		D9534BFF234CD55AB1E92A6574D1D80C /* Flames0053.png in Resources */ = {isa = PBXBuildFile; fileRef = 17C50A36AB34DD886B6AC75D1DCFCF16 /* Flames0053.png */; };
+		DA1DC15F62CCA0C48B9192015C9087A7 /* JotTouchPoint.h in Headers */ = {isa = PBXBuildFile; fileRef = 142C80D3C4F767DF60183680E8EC58E8 /* JotTouchPoint.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DACCCDABBA3DA6035AB549089A7D62FC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E885637FCD64FDC0A1489EBB09ECC8 /* Foundation.framework */; };
+		DBC03BB08C0FB553D630046AD6D1D743 /* shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 67A82D7F2A4B8C3321D69E4335E3E300 /* shadow@2x.png */; };
+		DCDD5552D4A9172F06E65E0DEB4F45F1 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 47D8102EC0F5CEF29B3D752D66A0F787 /* Masonry-dummy.m */; };
+		DEE71184B41ECAFC81FD1E5F8F4E8628 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = DB01F1B4D2B972E69028D991620D1D5F /* MASConstraintMaker.m */; };
+		DFC5EEB1D1DC9BDB2E758B4054389212 /* PocketSVG+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D57D34F0175893A0AD696FD854BF6E65 /* PocketSVG+Extension.swift */; };
+		E0349E2A02BA074871F315AE46D48FF1 /* circle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0166E2703F2FC42F5551CC7EC60A74F2 /* circle@2x.png */; };
+		E31B2F593E3A467B14DEB75DAF4E069B /* Flames0038.png in Resources */ = {isa = PBXBuildFile; fileRef = 6BA5CB158D10AC89388CCB29C041C682 /* Flames0038.png */; };
+		E3234A4FA5D5704DEBB62D178EAFAE51 /* Flames0048.png in Resources */ = {isa = PBXBuildFile; fileRef = 5B13C08150A381CC6F4FB1F053B658A3 /* Flames0048.png */; };
+		E4FCDFB17E898C3C2EF0D92AF5FD9768 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93E885637FCD64FDC0A1489EBB09ECC8 /* Foundation.framework */; };
+		E89CEE0E710DCEC13C1765890A48042C /* Flames0027.png in Resources */ = {isa = PBXBuildFile; fileRef = 07DFC606573304A661A0D0A5C647E290 /* Flames0027.png */; };
+		E9C209C5B76DF1633722CAF5975E89DF /* Flames0005.png in Resources */ = {isa = PBXBuildFile; fileRef = 4524479150EA20C0E49FF33A003FFDD4 /* Flames0005.png */; };
+		E9FF62B5645613B7F35F7419DFCBD7C1 /* UIBezierPath+YAL_Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EC8E8DF70F40EFB0A39BA45CA3BD571 /* UIBezierPath+YAL_Utils.m */; };
+		EA56E437B3503093CD4BB9E1B5FEAA3A /* YALPathFillAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = 9AD7CCC88005CF936B8A355C155237C8 /* YALPathFillAnimation.m */; };
+		EA9DD0E3D5DB4BEE2324EF97136758E2 /* YALProgressAnimatingLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AB7A9A12ACEE2A84D8AA542AA9DE9CD /* YALProgressAnimatingLayer.m */; };
+		EAAA23891E873889AFDE55FA1018BB50 /* Flames0070.png in Resources */ = {isa = PBXBuildFile; fileRef = CD5C7C47B0EAA0601E2B873663ADD23C /* Flames0070.png */; };
+		ECBB77B2FB0C23D43130DA060514F7B6 /* Flames0013.png in Resources */ = {isa = PBXBuildFile; fileRef = 893AC3F02DDBB20DE0AC72B71F1B4E27 /* Flames0013.png */; };
+		ED748F8CD47BB52DBF8940C105771AF4 /* Flames0071.png in Resources */ = {isa = PBXBuildFile; fileRef = 0F7A3418F1AEEC89E95842884F2F1AC6 /* Flames0071.png */; };
+		EE7EE5693AA0B05F7FE6E90E93E3C90B /* Flames0034.png in Resources */ = {isa = PBXBuildFile; fileRef = 944975D6E459DBF9AF6AE7DD50C2C1B8 /* Flames0034.png */; };
+		EE87E6BC0A119C8935F04D31B4D69D3C /* NSAttributedString+YAL_TextBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = 649E9D4427C6D6CB10CD977491620321 /* NSAttributedString+YAL_TextBezierPath.m */; };
+		F15D3D006C75F574334BA8D290E00425 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A4D79713B67165A05F67F0DC315A32A8 /* Pods-dummy.m */; };
+		F25516034893645D62796501129CDB2B /* Flames0046.png in Resources */ = {isa = PBXBuildFile; fileRef = CD2EBBD37CEA64A9278DFC8FC188C3B9 /* Flames0046.png */; };
+		F33A59F9E550AB32BC5ECDF9E20A3F98 /* PocketSVG.m in Sources */ = {isa = PBXBuildFile; fileRef = 45541C94663BCBDFF86E9329D50C024B /* PocketSVG.m */; };
+		F4F248E3C73A6CAF573CAB856E771751 /* pea@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 768CE8A71F91C3259B11F04D2FE4B766 /* pea@2x.png */; };
+		F6D15CFCC4CCCA5AA5421EEBE90E1D3F /* Flames0049.png in Resources */ = {isa = PBXBuildFile; fileRef = BCD124A0DE6D7D263D9E432418E55A75 /* Flames0049.png */; };
+		F7240AB500A79FC5EB8F1E60519FF39A /* Ophiuchus-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E4ED6E174D5366939725F26B146FA2E /* Ophiuchus-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F78771E1AFA09B9478A8355EF2309608 /* Flames0041.png in Resources */ = {isa = PBXBuildFile; fileRef = 3BF4F88C965D8413DE4CCA800F4A2394 /* Flames0041.png */; };
+		F8979BFFCB8AEAB7D77FB2A48CCAAB75 /* PullToMakeSoup-Bridging-Header.h in Headers */ = {isa = PBXBuildFile; fileRef = 621EB1054CD9C54D02E89D0D26118BDE /* PullToMakeSoup-Bridging-Header.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FACC0108E153BFA196245D9D1FBE5BB3 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = 881C80BE45F5584575DF3E3BFBC59C38 /* MASViewAttribute.m */; };
+		FB5E12413BAF768FE3EEB2EA3681369C /* Flames0073.png in Resources */ = {isa = PBXBuildFile; fileRef = FAC04061C86C9DFA621587C67702DE04 /* Flames0073.png */; };
+		FC3B9D888CB59448E3ED9BD814BA4F03 /* Flames0045.png in Resources */ = {isa = PBXBuildFile; fileRef = 40AEE7413435CA4018290E673AF3040E /* Flames0045.png */; };
+		FD3C33BE1C161872D5CCE5EFA590DC43 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E144274B7EF40C3A5812291A052109ED /* QuartzCore.framework */; };
+		FF6051E14F50F3225E99F92E316B5879 /* YALProgressAnimatingLayer.h in Headers */ = {isa = PBXBuildFile; fileRef = A6D4BEFAFAA3016D98BCCE7D27BFC4A8 /* YALProgressAnimatingLayer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17B0CD79BF92C8D1F9046659437F0BA1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 547D0B1F80B5794DA9689FE5622C7229;
+			remoteInfo = PullToMakeSoup;
+		};
+		68FC35B97619B87808781D6CAD521FC3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B54378F7BC6B44B5395B876BD659CDC6;
+			remoteInfo = YALSideMenu;
+		};
+		8B4EF36D784830697C3D803FE0263843 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5066A94524E56E0ADC32D2F76A703B4;
+			remoteInfo = Masonry;
+		};
+		990D4EF0BAA9BE90B266B8356B5D7B9B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D21D259B485C8B765C2BF645CF0D17EA;
+			remoteInfo = jot;
+		};
+		A7DA154B77E9E7691245B03BF9D2717F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F6A690194CD2F9B6B605D6117D16B83;
+			remoteInfo = DZNEmptyDataSet;
+		};
+		B1FB70FB154A32483D50369E70848F9F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 37736DFE5C6689004C078BEB195B908B;
+			remoteInfo = Ophiuchus;
+		};
+		E7DA274BF371714427BF1F0EA77D0EE1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5066A94524E56E0ADC32D2F76A703B4;
+			remoteInfo = Masonry;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0062F28EC7A00BDA2CA9C06AD3E2548E /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
+		0166E2703F2FC42F5551CC7EC60A74F2 /* circle@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "circle@2x.png"; path = "PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/circle.imageset/circle@2x.png"; sourceTree = "<group>"; };
+		0252BB8C8B5D23363EC6340A1D3339D2 /* potato-path-only.svg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = "potato-path-only.svg"; path = "PullToMakeSoup/PullToMakeSoup/Resources/potato-path-only.svg"; sourceTree = "<group>"; };
+		053CEA473A940DFA8B89A1F4F1DFAD0D /* Flames0047.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0047.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0047.imageset/Flames0047.png; sourceTree = "<group>"; };
+		07476CCF0D872E30497D6BAB08DF3C63 /* PullToMakeSoup.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = PullToMakeSoup.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		07DFC606573304A661A0D0A5C647E290 /* Flames0027.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0027.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0027.imageset/Flames0027.png; sourceTree = "<group>"; };
+		0A769CB40A59522987CA762C9FB8113B /* Flames0025.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0025.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0025.imageset/Flames0025.png; sourceTree = "<group>"; };
+		0B1938D92544D68350328B16C34628D1 /* jot-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "jot-dummy.m"; sourceTree = "<group>"; };
+		0B28B783A931B8A46DCFCD6888AD925B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B3B094EC43A40341269962FE0BB6C46 /* Ophiuchus.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ophiuchus.xcconfig; sourceTree = "<group>"; };
+		0E24710085BDCF19F9CBF8BD91B1E2F6 /* Menu.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Menu.swift; path = SideMenu/Menu.swift; sourceTree = "<group>"; };
+		0F572C019B1D20D5EE6E65685CAB2E41 /* Flames0009.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0009.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0009.imageset/Flames0009.png; sourceTree = "<group>"; };
+		0F7A3418F1AEEC89E95842884F2F1AC6 /* Flames0071.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0071.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0071.imageset/Flames0071.png; sourceTree = "<group>"; };
+		0FBF2E1FF913321A4F8EDBFA321B80BF /* Flames0015.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0015.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0015.imageset/Flames0015.png; sourceTree = "<group>"; };
+		10D0C49BB323337A307B207A43CD2523 /* Flames0055.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0055.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0055.imageset/Flames0055.png; sourceTree = "<group>"; };
+		142C80D3C4F767DF60183680E8EC58E8 /* JotTouchPoint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JotTouchPoint.h; path = jot/JotTouchPoint.h; sourceTree = "<group>"; };
+		15661B5316ADC8D4399E8F2DA9A4D20A /* JotTouchPoint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JotTouchPoint.m; path = jot/JotTouchPoint.m; sourceTree = "<group>"; };
+		17C50A36AB34DD886B6AC75D1DCFCF16 /* Flames0053.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0053.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0053.imageset/Flames0053.png; sourceTree = "<group>"; };
+		1823C384DCD227E0A76B3B8B7D960E88 /* YALSideMenu-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "YALSideMenu-Private.xcconfig"; sourceTree = "<group>"; };
+		1B7AA6C5E8155A4C50EE2033022F23D7 /* DZNEmptyDataSet-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "DZNEmptyDataSet-Private.xcconfig"; sourceTree = "<group>"; };
+		1C426F598E861900F1DCD0BBACDF9A26 /* jot-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "jot-umbrella.h"; sourceTree = "<group>"; };
+		1CBC7E0B67B9BD23201499C12045669A /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		1D6CF920EC2418CD379B8FF4DFAED872 /* YALSideMenu-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YALSideMenu-dummy.m"; sourceTree = "<group>"; };
+		1E34DC3C49E0DE6846C42610AF03C9A3 /* Flames0020.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0020.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0020.imageset/Flames0020.png; sourceTree = "<group>"; };
+		22169BAA40B7BC7131BF993B45045DA1 /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		2279BA5B85798134DE15308191723CF9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		24B1A182373CCA3AB31B94EBE6732940 /* Flames0023.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0023.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0023.imageset/Flames0023.png; sourceTree = "<group>"; };
+		257CD8130DAA5520398F928DA4B99E35 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		27B6DE2CCE4201D11554747D7A48EAF6 /* JotDrawingContainer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JotDrawingContainer.m; path = jot/JotDrawingContainer.m; sourceTree = "<group>"; };
+		2DCB7E24BB590101FF7BE723B7C654CB /* PullToRefresh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PullToRefresh.swift; path = PullToMakeSoup/PullToMakeSoup/PullToRefresh/PullToRefresh.swift; sourceTree = "<group>"; };
+		2EC8E8DF70F40EFB0A39BA45CA3BD571 /* UIBezierPath+YAL_Utils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIBezierPath+YAL_Utils.m"; path = "Pod/Classes/Categories/UIBezierPath+YAL_Utils.m"; sourceTree = "<group>"; };
+		30A1C44DD11AEBFC19D0CF41C5209F60 /* JotTouchBezier.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JotTouchBezier.m; path = jot/JotTouchBezier.m; sourceTree = "<group>"; };
+		33292C1A8CF4239359021387C6CDA929 /* Ophiuchus-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Ophiuchus-Private.xcconfig"; sourceTree = "<group>"; };
+		3390F84B5BF43C2D5C28626347B86730 /* UIScrollView+PullToRefresh.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIScrollView+PullToRefresh.swift"; path = "PullToMakeSoup/PullToMakeSoup/PullToRefresh/UIScrollView+PullToRefresh.swift"; sourceTree = "<group>"; };
+		361C993FDBDC1080843B1C72C121E80C /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		382D06469A1E46A37EB5C0172A44F01E /* Flames0004.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0004.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0004.imageset/Flames0004.png; sourceTree = "<group>"; };
+		392E36A7404B111C5F0181923144A056 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		3A2C5F36CFE88279F7F02CBCB1A3CAB1 /* Flames0037.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0037.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0037.imageset/Flames0037.png; sourceTree = "<group>"; };
+		3B121CC94DE71A442A29F459B53DE46F /* Flames0014.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0014.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0014.imageset/Flames0014.png; sourceTree = "<group>"; };
+		3BF4F88C965D8413DE4CCA800F4A2394 /* Flames0041.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0041.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0041.imageset/Flames0041.png; sourceTree = "<group>"; };
+		3E29E8E766433AD7B09D82BAD30E5B70 /* Masonry-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-umbrella.h"; sourceTree = "<group>"; };
+		3FF30BD899326A1F58C44586B6EBFB18 /* PocketSVG.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PocketSVG.h; path = PullToMakeSoup/PullToMakeSoup/PocketSVG/PocketSVG.h; sourceTree = "<group>"; };
+		401D0EC1A5A796896DEB1BCDB886B851 /* JotTextView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JotTextView.h; path = jot/JotTextView.h; sourceTree = "<group>"; };
+		40AEE7413435CA4018290E673AF3040E /* Flames0045.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0045.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0045.imageset/Flames0045.png; sourceTree = "<group>"; };
+		41109A5288ED4D652F0FD839C2032BDE /* Flames0078.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0078.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0078.imageset/Flames0078.png; sourceTree = "<group>"; };
+		42C8B2E55277C268AF660FED012D3ED0 /* UIBezierPath+YAL_Utils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIBezierPath+YAL_Utils.h"; path = "Pod/Classes/Categories/UIBezierPath+YAL_Utils.h"; sourceTree = "<group>"; };
+		4524479150EA20C0E49FF33A003FFDD4 /* Flames0005.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0005.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0005.imageset/Flames0005.png; sourceTree = "<group>"; };
+		45541C94663BCBDFF86E9329D50C024B /* PocketSVG.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = PocketSVG.m; path = PullToMakeSoup/PullToMakeSoup/PocketSVG/PocketSVG.m; sourceTree = "<group>"; };
+		45CB2813876853A56954AE797A2DF70C /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		47968B017411FF655509B4CEC7766679 /* Flames0044.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0044.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0044.imageset/Flames0044.png; sourceTree = "<group>"; };
+		479851128662A39EB5CEA9489C42D27A /* Ophiuchus-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ophiuchus-prefix.pch"; sourceTree = "<group>"; };
+		47D8102EC0F5CEF29B3D752D66A0F787 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		4934078ABFE3196E2A6577DC33940478 /* Flames0007.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0007.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0007.imageset/Flames0007.png; sourceTree = "<group>"; };
+		494874060877B3CA9ED98067B9390265 /* Flames0030.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0030.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0030.imageset/Flames0030.png; sourceTree = "<group>"; };
+		4B8B632B6E57809201EE5DD8D14F2806 /* DZNEmptyDataSet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DZNEmptyDataSet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BAC490812F4EFEB9D0355F2D71ADBCE /* Flames0017.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0017.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0017.imageset/Flames0017.png; sourceTree = "<group>"; };
+		4C195C773C4A1D8592C8DBB22EFD16F5 /* pea-from-left-path-only.svg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = "pea-from-left-path-only.svg"; path = "PullToMakeSoup/PullToMakeSoup/Resources/pea-from-left-path-only.svg"; sourceTree = "<group>"; };
+		4C27178FAEFDF7CFD1C192A44D9A4BE0 /* YALSideMenu.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = YALSideMenu.modulemap; sourceTree = "<group>"; };
+		4DCBEF5FB0B3319D1C6F1BBCEF576A6F /* Flames0054.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0054.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0054.imageset/Flames0054.png; sourceTree = "<group>"; };
+		50B721E67F3A17A892C44BFC8C0A54C4 /* JotViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JotViewController.h; path = jot/JotViewController.h; sourceTree = "<group>"; };
+		51515E477723DB9EBCE696A1F3099C38 /* SoupView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = SoupView.xib; path = PullToMakeSoup/PullToMakeSoup/Resources/SoupView.xib; sourceTree = "<group>"; };
+		5311AC62CE0C933307E9CAE3B8FCC1CF /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		53190AFC283AB1B05F1D19773FED4272 /* Flames0024.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0024.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0024.imageset/Flames0024.png; sourceTree = "<group>"; };
+		566CC1C56D97F7EA808CA81EFFC0BD8B /* DZNEmptyDataSet.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = DZNEmptyDataSet.modulemap; sourceTree = "<group>"; };
+		58C4DBBD5AE837D0FA3D2BCA5A9AD680 /* jot.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = jot.modulemap; sourceTree = "<group>"; };
+		59291B55F6619307B12DB91F1C387AC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		598EB0C2A5E873BC523A6199BE7D724F /* YALPathFillAnimation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALPathFillAnimation.h; path = Pod/Classes/PathFillAnimation/YALPathFillAnimation.h; sourceTree = "<group>"; };
+		5A2C46A4FEB73519C0E5D8DB0B4FC2D1 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		5AB7A9A12ACEE2A84D8AA542AA9DE9CD /* YALProgressAnimatingLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALProgressAnimatingLayer.m; path = Pod/Classes/PathAnimatingLayers/ProgressAnimatingLayer/YALProgressAnimatingLayer.m; sourceTree = "<group>"; };
+		5AE39EB8B663258843222130D873D541 /* pea-from-right-path-only.svg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = "pea-from-right-path-only.svg"; path = "PullToMakeSoup/PullToMakeSoup/Resources/pea-from-right-path-only.svg"; sourceTree = "<group>"; };
+		5AEEE5A2E8520AAE21F51536D4B88161 /* JotTextView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JotTextView.m; path = jot/JotTextView.m; sourceTree = "<group>"; };
+		5B13C08150A381CC6F4FB1F053B658A3 /* Flames0048.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0048.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0048.imageset/Flames0048.png; sourceTree = "<group>"; };
+		5DA20CFA041DF3B6523791C16710ECB6 /* cover@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "cover@2x.png"; path = "PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/cover.imageset/cover@2x.png"; sourceTree = "<group>"; };
+		5DB39E116CB3C6726B3ACB3A8A6CA401 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		5E4ED6E174D5366939725F26B146FA2E /* Ophiuchus-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ophiuchus-umbrella.h"; sourceTree = "<group>"; };
+		5EE258984741CF080D6E166B85561EEA /* Flames0006.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0006.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0006.imageset/Flames0006.png; sourceTree = "<group>"; };
+		5F8373CCB80265C00BFFD99B20490A2D /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		5F99F094B4C50CF4F35DB28AAE674E26 /* Flames0068.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0068.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0068.imageset/Flames0068.png; sourceTree = "<group>"; };
+		60F544F23E626883007CC062A979B5E4 /* Flames0063.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0063.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0063.imageset/Flames0063.png; sourceTree = "<group>"; };
+		61799EDD5830D55E71AD1639349D55D2 /* Flames0043.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0043.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0043.imageset/Flames0043.png; sourceTree = "<group>"; };
+		621EB1054CD9C54D02E89D0D26118BDE /* PullToMakeSoup-Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "PullToMakeSoup-Bridging-Header.h"; path = "PullToMakeSoup/PullToMakeSoup-Bridging-Header.h"; sourceTree = "<group>"; };
+		63C6CA43F234A1119CFE0320AE1AD312 /* jot-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "jot-Private.xcconfig"; sourceTree = "<group>"; };
+		63C8C7020CE81A0B533EF5CC52AFDE97 /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
+		649E9D4427C6D6CB10CD977491620321 /* NSAttributedString+YAL_TextBezierPath.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSAttributedString+YAL_TextBezierPath.m"; path = "Pod/Classes/Categories/NSAttributedString+YAL_TextBezierPath.m"; sourceTree = "<group>"; };
+		64D211D4C3CB92E8422A09FE97A1D03F /* Flames0010.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0010.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0010.imageset/Flames0010.png; sourceTree = "<group>"; };
+		65410662B61471D953F2FFA302A5EF71 /* Flames0001.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0001.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0001.imageset/Flames0001.png; sourceTree = "<group>"; };
+		65AE50FB0AE8B9F3CB046AEB62EB01DB /* PullToMakeSoup.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PullToMakeSoup.h; path = PullToMakeSoup/PullToMakeSoup.h; sourceTree = "<group>"; };
+		65F9804FD214285054478BA71368AE8F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6789A3ED1C6678139AF1E13251BBC4B2 /* Flames0008.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0008.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0008.imageset/Flames0008.png; sourceTree = "<group>"; };
+		67953A8704F9867521C0267E8D5198DB /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		67A82D7F2A4B8C3321D69E4335E3E300 /* shadow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "shadow@2x.png"; path = "PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/shadow.imageset/shadow@2x.png"; sourceTree = "<group>"; };
+		688F032DF3C7D37E8280537F1E94AF92 /* pan@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "pan@2x.png"; path = "PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/pan.imageset/pan@2x.png"; sourceTree = "<group>"; };
+		6AA47EFC84EB0861E0C45523E1DBB7F6 /* Flames0003.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0003.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0003.imageset/Flames0003.png; sourceTree = "<group>"; };
+		6AED3B116DF8C14BC104316DD356EF76 /* Ophiuchus.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Ophiuchus.modulemap; sourceTree = "<group>"; };
+		6B94D8282C44F49D9D4D96AE359A7ABB /* Flames0067.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0067.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0067.imageset/Flames0067.png; sourceTree = "<group>"; };
+		6BA5CB158D10AC89388CCB29C041C682 /* Flames0038.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0038.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0038.imageset/Flames0038.png; sourceTree = "<group>"; };
+		6BC9B868E06F4C9F40AB9B48D275AFA3 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		6BF781FD1A4088EDFCFD36D538E7DEA0 /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
+		6D2930491CD382ED09D36C4EE0D19CFB /* PullToMakeSoup-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "PullToMakeSoup-Private.xcconfig"; sourceTree = "<group>"; };
+		711379BE40398BDB6852F995ACAC5F81 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreText.framework; sourceTree = DEVELOPER_DIR; };
+		7163A0672D9704B62D2B01FBB941299B /* YALLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALLabel.m; path = Pod/Classes/Label/YALLabel.m; sourceTree = "<group>"; };
+		72CFE101EB6376D5AEE805439F645731 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		74F69857DF1C26775141C6BAFAD2F053 /* jot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = jot.h; path = jot/jot.h; sourceTree = "<group>"; };
+		7564DC0E3F74714C645DC29CC5C41279 /* PullToMakeSoup-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PullToMakeSoup-umbrella.h"; sourceTree = "<group>"; };
+		75B1DB065CFADD8AC959C2AED28D931F /* YALTextLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALTextLayer.h; path = Pod/Classes/PathAnimatingLayers/TextLayer/YALTextLayer.h; sourceTree = "<group>"; };
+		7608AB88E7A269A609A322AF60884454 /* Flames0058.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0058.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0058.imageset/Flames0058.png; sourceTree = "<group>"; };
+		768CE8A71F91C3259B11F04D2FE4B766 /* pea@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "pea@2x.png"; path = "PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/pea.imageset/pea@2x.png"; sourceTree = "<group>"; };
+		78BF284936E0009D8C14C0F818674FCD /* UIScrollView+EmptyDataSet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+EmptyDataSet.h"; path = "Source/UIScrollView+EmptyDataSet.h"; sourceTree = "<group>"; };
+		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		7A73249B3633356D341BA4423734AFA2 /* JotViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JotViewController.m; path = jot/JotViewController.m; sourceTree = "<group>"; };
+		7BCDCE6F2ACEE856F03C52A0B5463AA4 /* SideMenu.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SideMenu.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C14F91A8BA91B621B330B7784C14B6D /* Flames0050.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0050.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0050.imageset/Flames0050.png; sourceTree = "<group>"; };
+		7E613AE8109B5A63654B452CED7701CE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7FB8117D446C8B369FB1E0362139EFD5 /* JotDrawView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JotDrawView.m; path = jot/JotDrawView.m; sourceTree = "<group>"; };
+		818468D1F30F37BBC776641DBF1F1FDA /* DZNEmptyDataSet-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZNEmptyDataSet-prefix.pch"; sourceTree = "<group>"; };
+		83565D9D084AE35AAF7BBB4BEBA0A74C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83BEE729743A412C3AD874F05A8AF463 /* Masonry.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Masonry.modulemap; sourceTree = "<group>"; };
+		83F591B2F137366A23B023663DAA1834 /* JotTouchBezier.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JotTouchBezier.h; path = jot/JotTouchBezier.h; sourceTree = "<group>"; };
+		84C51765E3CCBED0463B3B2B81A18CEB /* JotDrawingContainer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JotDrawingContainer.h; path = jot/JotDrawingContainer.h; sourceTree = "<group>"; };
+		85647717B5BB96E5997D33B22A7441D8 /* YALSideMenu-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YALSideMenu-prefix.pch"; sourceTree = "<group>"; };
+		8625A3D60315691FCC6FAA31801F7BFB /* Flames0039.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0039.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0039.imageset/Flames0039.png; sourceTree = "<group>"; };
+		862ECB0FFD653141E3D0340CDA86733D /* YALSideMenu-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YALSideMenu-umbrella.h"; sourceTree = "<group>"; };
+		869A95F54C2EEB913D56F9CEBEF3FD00 /* UIScrollView+EmptyDataSet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+EmptyDataSet.m"; path = "Source/UIScrollView+EmptyDataSet.m"; sourceTree = "<group>"; };
+		8753CD5DDD58DAF01134F5284055E933 /* Flames0019.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0019.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0019.imageset/Flames0019.png; sourceTree = "<group>"; };
+		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		881C80BE45F5584575DF3E3BFBC59C38 /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		88C784C190505F53E6406FB49E40D997 /* Flames0036.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0036.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0036.imageset/Flames0036.png; sourceTree = "<group>"; };
+		893AC3F02DDBB20DE0AC72B71F1B4E27 /* Flames0013.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0013.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0013.imageset/Flames0013.png; sourceTree = "<group>"; };
+		8ADFB3B21586CFCF53551C013A7BEBED /* PullToMakeSoup.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = PullToMakeSoup.modulemap; sourceTree = "<group>"; };
+		8D9D1A23CD4084CE019B42830F62D0D1 /* Flames0077.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0077.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0077.imageset/Flames0077.png; sourceTree = "<group>"; };
+		8F889B3ABC234F51B39F3552E5EDADB0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FA9F69A0630041FAA05170F4A104A2D /* PullToMakeSoup.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PullToMakeSoup.swift; path = PullToMakeSoup/PullToMakeSoup/PullToMakeSoup.swift; sourceTree = "<group>"; };
+		909F8115515F1ECE12D93DD3E5BDB361 /* carrot@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "carrot@2x.png"; path = "PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/carrot.imageset/carrot@2x.png"; sourceTree = "<group>"; };
+		92917C193B4A77D198B981D3A4B02FAC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93E885637FCD64FDC0A1489EBB09ECC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		944975D6E459DBF9AF6AE7DD50C2C1B8 /* Flames0034.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0034.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0034.imageset/Flames0034.png; sourceTree = "<group>"; };
+		94AE03475F33AA915D77369B89FE6D75 /* Flames0018.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0018.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0018.imageset/Flames0018.png; sourceTree = "<group>"; };
+		9544C92505C9EAE3D6225DCE1A03C91E /* Flames0065.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0065.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0065.imageset/Flames0065.png; sourceTree = "<group>"; };
+		95CFDC9702609533BC36784E290B4340 /* Flames0062.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0062.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0062.imageset/Flames0062.png; sourceTree = "<group>"; };
+		97B45A4A5445CA57417D6E73D5C77918 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		9AD7CCC88005CF936B8A355C155237C8 /* YALPathFillAnimation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALPathFillAnimation.m; path = Pod/Classes/PathFillAnimation/YALPathFillAnimation.m; sourceTree = "<group>"; };
+		9BB50D18C4F861A587E8DC50B7AAEB85 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		9C93502BD08722AB5D6AF7CC55C2A448 /* JotDrawView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JotDrawView.h; path = jot/JotDrawView.h; sourceTree = "<group>"; };
+		9D6B81C59B5EF32E3E2AC2B8D50BCDB5 /* Flames0002.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0002.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0002.imageset/Flames0002.png; sourceTree = "<group>"; };
+		9D7640E1740E6C99C8E2F513DD0EE99A /* Flames0051.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0051.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0051.imageset/Flames0051.png; sourceTree = "<group>"; };
+		A117EC2FB51224AB9AB269CE32D54206 /* Flames0040.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0040.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0040.imageset/Flames0040.png; sourceTree = "<group>"; };
+		A172C562C2D682442C73A5D578C059E4 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		A2D73ECC23ACDFA8BC07923BF665AC93 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		A36661E4511A79A80B04F63816E90469 /* Flames0026.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0026.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0026.imageset/Flames0026.png; sourceTree = "<group>"; };
+		A3D6DD280E5D8AFAB50EAE869ACF3F57 /* water@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "water@2x.png"; path = "PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/water.imageset/water@2x.png"; sourceTree = "<group>"; };
+		A4D79713B67165A05F67F0DC315A32A8 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		A4F062A3072AC19D12D225A0900D1A4A /* Flames0064.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0064.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0064.imageset/Flames0064.png; sourceTree = "<group>"; };
+		A6A5B950FF6C7E3D598B9F55D494A492 /* Flames0021.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0021.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0021.imageset/Flames0021.png; sourceTree = "<group>"; };
+		A6D4BEFAFAA3016D98BCCE7D27BFC4A8 /* YALProgressAnimatingLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALProgressAnimatingLayer.h; path = Pod/Classes/PathAnimatingLayers/ProgressAnimatingLayer/YALProgressAnimatingLayer.h; sourceTree = "<group>"; };
+		A70C6416E59FC91704999600DCB5AB6F /* JotTextEditView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JotTextEditView.m; path = jot/JotTextEditView.m; sourceTree = "<group>"; };
+		A7FE856DBD1CCDB6F15A3DC095C014ED /* Flames0012.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0012.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0012.imageset/Flames0012.png; sourceTree = "<group>"; };
+		A9EB08D81EE86EC2E4349902ABD80CE9 /* Flames0060.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0060.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0060.imageset/Flames0060.png; sourceTree = "<group>"; };
+		AE2257599AC7CB4B26B5B143151D5E92 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		B20881A7C60A50088E6E868F2F10C3CE /* Flames0076.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0076.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0076.imageset/Flames0076.png; sourceTree = "<group>"; };
+		B4D70F14DBC85893C9FC97279F317F2D /* potato@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "potato@2x.png"; path = "PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/potato.imageset/potato@2x.png"; sourceTree = "<group>"; };
+		B604E9E197B89C1B3B19ECBD6DFAB265 /* DZNEmptyDataSet-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DZNEmptyDataSet-dummy.m"; sourceTree = "<group>"; };
+		B6104F85C3B2185FBCEAA9EADE663028 /* Flames0075.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0075.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0075.imageset/Flames0075.png; sourceTree = "<group>"; };
+		B640F71AB25F3434AC56CC94F8216BF3 /* Flames0016.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0016.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0016.imageset/Flames0016.png; sourceTree = "<group>"; };
+		B6E7BD1A1DB1D34000C30708F362DA87 /* carrot-path-only.svg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = "carrot-path-only.svg"; path = "PullToMakeSoup/PullToMakeSoup/Resources/carrot-path-only.svg"; sourceTree = "<group>"; };
+		B740A2D3160DB4D18C57962AE319F607 /* MenuTransitionAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuTransitionAnimator.swift; path = SideMenu/MenuTransitionAnimator.swift; sourceTree = "<group>"; };
+		B9590D51983B8BB84017D3FAED891991 /* NSAttributedString+YAL_TextBezierPath.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSAttributedString+YAL_TextBezierPath.h"; path = "Pod/Classes/Categories/NSAttributedString+YAL_TextBezierPath.h"; sourceTree = "<group>"; };
+		B9C92F75510908CC665A24CD6F149B0B /* YALSideMenu.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YALSideMenu.xcconfig; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BB076D6773BAC77FE0DADC91A13BBA34 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
+		BCD124A0DE6D7D263D9E432418E55A75 /* Flames0049.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0049.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0049.imageset/Flames0049.png; sourceTree = "<group>"; };
+		BE42C966090BA0D9E0FBAFCA20EF4962 /* MenuSegue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuSegue.swift; path = SideMenu/MenuSegue.swift; sourceTree = "<group>"; };
+		BF46298CD95E4F705E6BF243D95DEF28 /* PullToMakeSoup-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PullToMakeSoup-dummy.m"; sourceTree = "<group>"; };
+		BFA78C794E17B7063DCD46514ECAC075 /* DZNEmptyDataSet.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DZNEmptyDataSet.xcconfig; sourceTree = "<group>"; };
+		C07F477B2CEAB5B7563B5ECE149B2E0E /* Flames0057.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0057.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0057.imageset/Flames0057.png; sourceTree = "<group>"; };
+		C1041ABA9B4C17F65B6BC76E77E270B3 /* Flames0011.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0011.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0011.imageset/Flames0011.png; sourceTree = "<group>"; };
+		C109A0C66B766BE9231785E6F18ACC75 /* cover-path-only.svg */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xml; name = "cover-path-only.svg"; path = "PullToMakeSoup/PullToMakeSoup/Resources/cover-path-only.svg"; sourceTree = "<group>"; };
+		C2BC66C1346145240AC82C31C8B87ED3 /* UIImage+Jot.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Jot.h"; path = "jot/UIImage+Jot.h"; sourceTree = "<group>"; };
+		C347DF125D50F23CB2D3A99830CFF9CA /* Masonry.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Masonry.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C435C3D635029CCE34C9F796AE35E79F /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		C490EDA32DDAC3185D245545236162A5 /* YALLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YALLabel.h; path = Pod/Classes/Label/YALLabel.h; sourceTree = "<group>"; };
+		C4A626B4E43864993A939BD46E3B4063 /* Flames0035.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0035.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0035.imageset/Flames0035.png; sourceTree = "<group>"; };
+		C4FB2847136C2D3E23E11131EE01196D /* jot.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = jot.xcconfig; sourceTree = "<group>"; };
+		C6EF41B9C61F12FAF954722B1BC94485 /* Flames0069.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0069.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0069.imageset/Flames0069.png; sourceTree = "<group>"; };
+		C75BB87138FA0B6ABAD350B1448532BE /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		C8C814041A9B2334C05611EC6529AFE1 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		C968357B25D0AAB9DD038ED861E171C4 /* JotTextEditView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JotTextEditView.h; path = jot/JotTextEditView.h; sourceTree = "<group>"; };
+		CA92840DA4081F53DB54EB407E81DDA8 /* Flames0074.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0074.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0074.imageset/Flames0074.png; sourceTree = "<group>"; };
+		CAF6C42EB191AB39FA705117546A8F8C /* Ophiuchus.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Ophiuchus.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		CCAC268EC3EC7B558A307DCEDE11903F /* Flames0032.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0032.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0032.imageset/Flames0032.png; sourceTree = "<group>"; };
+		CD2EBBD37CEA64A9278DFC8FC188C3B9 /* Flames0046.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0046.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0046.imageset/Flames0046.png; sourceTree = "<group>"; };
+		CD5C7C47B0EAA0601E2B873663ADD23C /* Flames0070.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0070.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0070.imageset/Flames0070.png; sourceTree = "<group>"; };
+		CE30BF3C76E85BD570A4E661B5B96CA9 /* UIImage+Jot.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Jot.m"; path = "jot/UIImage+Jot.m"; sourceTree = "<group>"; };
+		CE9838B5B8EE4CE0F7660E3D99DEDC07 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D09F4D733651D44F5F7182C4BDFC7CD4 /* Flames0059.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0059.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0059.imageset/Flames0059.png; sourceTree = "<group>"; };
+		D49A79694F0798591D23BE4C47FD7352 /* DZNEmptyDataSet-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DZNEmptyDataSet-umbrella.h"; sourceTree = "<group>"; };
+		D57D34F0175893A0AD696FD854BF6E65 /* PocketSVG+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "PocketSVG+Extension.swift"; path = "PullToMakeSoup/PullToMakeSoup/PocketSVG/PocketSVG+Extension.swift"; sourceTree = "<group>"; };
+		DB01F1B4D2B972E69028D991620D1D5F /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		DB807AB9BC8EBE5F3F11D4345C83B3E6 /* Flames0052.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0052.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0052.imageset/Flames0052.png; sourceTree = "<group>"; };
+		DBDBC9CA950046A0A60E5C3B7FA80278 /* Flames0031.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0031.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0031.imageset/Flames0031.png; sourceTree = "<group>"; };
+		DD4B9AF86384C4A78D3814DF6EFE667F /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		DD8AD07B3410C0D9CC35459BF945EDB3 /* YALTextLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YALTextLayer.m; path = Pod/Classes/PathAnimatingLayers/TextLayer/YALTextLayer.m; sourceTree = "<group>"; };
+		DDCAD6BA0A73947B0A19990BEC66DB21 /* MenuItemsAnimator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MenuItemsAnimator.swift; path = SideMenu/MenuItemsAnimator.swift; sourceTree = "<group>"; };
+		DF137AAFFC984600E0619DC4537C4769 /* jot.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = jot.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DF9F11C18B3A08ED941F1279F980EAF5 /* Flames0022.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0022.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0022.imageset/Flames0022.png; sourceTree = "<group>"; };
+		E144274B7EF40C3A5812291A052109ED /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E3DAFEA4745EC2CCCA7E1E53CCF20AAC /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E473D0B3508F4086568B145916F42A0E /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
+		E551A37BEAACE4D40DA86E44CFA80263 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		E5E7902C0AD99EBCAC53DF563F30AF6A /* PullToMakeSoup.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PullToMakeSoup.xcconfig; sourceTree = "<group>"; };
+		E7D1D3E2C518C3FB4085B56F34F2E06F /* Flames0061.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0061.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0061.imageset/Flames0061.png; sourceTree = "<group>"; };
+		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA024F41A3BDEEA6289CC62CB32FB65A /* Flames0028.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0028.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0028.imageset/Flames0028.png; sourceTree = "<group>"; };
+		EBDC17CE9C1D9AC50996D02534E04546 /* jot-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "jot-prefix.pch"; sourceTree = "<group>"; };
+		EC3D195E4C62AD941A6B7991C58F0089 /* CAKeyframeAnimation+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CAKeyframeAnimation+Extensions.swift"; path = "PullToMakeSoup/PullToMakeSoup/CAKeyframeAnimation+Extensions.swift"; sourceTree = "<group>"; };
+		F0588D9A4CEE7E72739221636BBB6FB9 /* Flames0033.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0033.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0033.imageset/Flames0033.png; sourceTree = "<group>"; };
+		F0C06D5E965FCF2EBE9528ED5D52B6DA /* Flames0029.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0029.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0029.imageset/Flames0029.png; sourceTree = "<group>"; };
+		F2B24DD8F1CAA0C1D09372320A9E4E6B /* PullToMakeSoup-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PullToMakeSoup-prefix.pch"; sourceTree = "<group>"; };
+		F2CD38AA2D6F4B8964B3430AB4D9F96B /* Ophiuchus-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Ophiuchus-dummy.m"; sourceTree = "<group>"; };
+		F3242C3BA874CA5FB902F95E57C03320 /* Flames0056.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0056.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0056.imageset/Flames0056.png; sourceTree = "<group>"; };
+		F45A3F5B22998C08B803C21C3CE8CA47 /* Flames0072.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0072.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0072.imageset/Flames0072.png; sourceTree = "<group>"; };
+		F6D53B6D928BD46EB8DF9DA0DB678820 /* Flames0066.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0066.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0066.imageset/Flames0066.png; sourceTree = "<group>"; };
+		FAC04061C86C9DFA621587C67702DE04 /* Flames0073.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0073.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0073.imageset/Flames0073.png; sourceTree = "<group>"; };
+		FB3D1C61E15B5B1C6EC6268CC99AA779 /* Masonry-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Masonry-Private.xcconfig"; sourceTree = "<group>"; };
+		FE0C8604E6926440B65794ED8F058261 /* Flames0042.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = Flames0042.png; path = PullToMakeSoup/PullToMakeSoup/Resources/CookingRefresher.xcassets/flames/Flames0042.imageset/Flames0042.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07E1ABB15857339CBB1FD009255149E3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3B36BF9DCE82B725B65C794C5F519CC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		12A018486053F7D6368348D4C77C613E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				92748B2B843BC9D97AA47D6E59E867D5 /* Foundation.framework in Frameworks */,
+				78714F2E00859BB5123EFC1107B72218 /* Masonry.framework in Frameworks */,
+				C8E43D9666455EC077C238AF036AE825 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D498204094EAE85C636BC3F3B7C9353 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D96B2632D49AF049DAC225DB0D1BC2C /* Foundation.framework in Frameworks */,
+				487B1FECC0F102EFA7BAA866648D890A /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3008F02A0B39CDC2CC2AAEB43BA188D8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5887A7410A2DE10AE46430CDD5E90095 /* CoreText.framework in Frameworks */,
+				47204EF20BD2E7E7CC7C28451D8ACEC5 /* Foundation.framework in Frameworks */,
+				C123DB30EDF167FFA2E048E52BEE8066 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		58B2F902C00BED9E70AF7C02853A69E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				499986BAD89B1E5204E3EF005488FA4C /* CoreGraphics.framework in Frameworks */,
+				42AA0E917D0A27170D6C23296ED97C08 /* Foundation.framework in Frameworks */,
+				FD3C33BE1C161872D5CCE5EFA590DC43 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A51CE345DA4160EC12D719AF58BF3B65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DACCCDABBA3DA6035AB549089A7D62FC /* Foundation.framework in Frameworks */,
+				B190BA3AE92FD1EC14910DB3D2A38A9E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C649BC8FDA3D2B79A60AC3A484BFB3DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E4FCDFB17E898C3C2EF0D92AF5FD9768 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B6D0A2AA3EF8059D9185323722AA4CE /* jot */ = {
+			isa = PBXGroup;
+			children = (
+				9C93502BD08722AB5D6AF7CC55C2A448 /* JotDrawView.h */,
+				7FB8117D446C8B369FB1E0362139EFD5 /* JotDrawView.m */,
+				84C51765E3CCBED0463B3B2B81A18CEB /* JotDrawingContainer.h */,
+				27B6DE2CCE4201D11554747D7A48EAF6 /* JotDrawingContainer.m */,
+				C968357B25D0AAB9DD038ED861E171C4 /* JotTextEditView.h */,
+				A70C6416E59FC91704999600DCB5AB6F /* JotTextEditView.m */,
+				401D0EC1A5A796896DEB1BCDB886B851 /* JotTextView.h */,
+				5AEEE5A2E8520AAE21F51536D4B88161 /* JotTextView.m */,
+				83F591B2F137366A23B023663DAA1834 /* JotTouchBezier.h */,
+				30A1C44DD11AEBFC19D0CF41C5209F60 /* JotTouchBezier.m */,
+				142C80D3C4F767DF60183680E8EC58E8 /* JotTouchPoint.h */,
+				15661B5316ADC8D4399E8F2DA9A4D20A /* JotTouchPoint.m */,
+				50B721E67F3A17A892C44BFC8C0A54C4 /* JotViewController.h */,
+				7A73249B3633356D341BA4423734AFA2 /* JotViewController.m */,
+				C2BC66C1346145240AC82C31C8B87ED3 /* UIImage+Jot.h */,
+				CE30BF3C76E85BD570A4E661B5B96CA9 /* UIImage+Jot.m */,
+				74F69857DF1C26775141C6BAFAD2F053 /* jot.h */,
+				7C2CA3CB2B584C77E3B5B08A2FB83807 /* Support Files */,
+			);
+			path = jot;
+			sourceTree = "<group>";
+		};
+		121D267229EC34A7C79835487D132528 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				566CC1C56D97F7EA808CA81EFFC0BD8B /* DZNEmptyDataSet.modulemap */,
+				BFA78C794E17B7063DCD46514ECAC075 /* DZNEmptyDataSet.xcconfig */,
+				1B7AA6C5E8155A4C50EE2033022F23D7 /* DZNEmptyDataSet-Private.xcconfig */,
+				B604E9E197B89C1B3B19ECBD6DFAB265 /* DZNEmptyDataSet-dummy.m */,
+				818468D1F30F37BBC776641DBF1F1FDA /* DZNEmptyDataSet-prefix.pch */,
+				D49A79694F0798591D23BE4C47FD7352 /* DZNEmptyDataSet-umbrella.h */,
+				83565D9D084AE35AAF7BBB4BEBA0A74C /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DZNEmptyDataSet";
+			sourceTree = "<group>";
+		};
+		1B4827BBB4A3D08B028C267142DEE3C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				361C993FDBDC1080843B1C72C121E80C /* Masonry.framework */,
+				77E3F24D24B70EF13F44DD3997CD2FBC /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		202A0478737A99D0D91F7F92272E1736 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9BC2E439948C9B9490797C062C4FD1DF /* DZNEmptyDataSet */,
+				49DF1778441645A512075FE18FCBE6FA /* Masonry */,
+				D2EE602546C0B4AB510FD693BD6BB41E /* Ophiuchus */,
+				D8194D8BEBD5357FBE6F2358EDBBE364 /* PullToMakeSoup */,
+				8104D2375D06C2B2FBC530ACF8A0CF82 /* YALSideMenu */,
+				0B6D0A2AA3EF8059D9185323722AA4CE /* jot */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		3706A13908CD6CD2970E0FF4134070C2 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				65410662B61471D953F2FFA302A5EF71 /* Flames0001.png */,
+				9D6B81C59B5EF32E3E2AC2B8D50BCDB5 /* Flames0002.png */,
+				6AA47EFC84EB0861E0C45523E1DBB7F6 /* Flames0003.png */,
+				382D06469A1E46A37EB5C0172A44F01E /* Flames0004.png */,
+				4524479150EA20C0E49FF33A003FFDD4 /* Flames0005.png */,
+				5EE258984741CF080D6E166B85561EEA /* Flames0006.png */,
+				4934078ABFE3196E2A6577DC33940478 /* Flames0007.png */,
+				6789A3ED1C6678139AF1E13251BBC4B2 /* Flames0008.png */,
+				0F572C019B1D20D5EE6E65685CAB2E41 /* Flames0009.png */,
+				64D211D4C3CB92E8422A09FE97A1D03F /* Flames0010.png */,
+				C1041ABA9B4C17F65B6BC76E77E270B3 /* Flames0011.png */,
+				A7FE856DBD1CCDB6F15A3DC095C014ED /* Flames0012.png */,
+				893AC3F02DDBB20DE0AC72B71F1B4E27 /* Flames0013.png */,
+				3B121CC94DE71A442A29F459B53DE46F /* Flames0014.png */,
+				0FBF2E1FF913321A4F8EDBFA321B80BF /* Flames0015.png */,
+				B640F71AB25F3434AC56CC94F8216BF3 /* Flames0016.png */,
+				4BAC490812F4EFEB9D0355F2D71ADBCE /* Flames0017.png */,
+				94AE03475F33AA915D77369B89FE6D75 /* Flames0018.png */,
+				8753CD5DDD58DAF01134F5284055E933 /* Flames0019.png */,
+				1E34DC3C49E0DE6846C42610AF03C9A3 /* Flames0020.png */,
+				A6A5B950FF6C7E3D598B9F55D494A492 /* Flames0021.png */,
+				DF9F11C18B3A08ED941F1279F980EAF5 /* Flames0022.png */,
+				24B1A182373CCA3AB31B94EBE6732940 /* Flames0023.png */,
+				53190AFC283AB1B05F1D19773FED4272 /* Flames0024.png */,
+				0A769CB40A59522987CA762C9FB8113B /* Flames0025.png */,
+				A36661E4511A79A80B04F63816E90469 /* Flames0026.png */,
+				07DFC606573304A661A0D0A5C647E290 /* Flames0027.png */,
+				EA024F41A3BDEEA6289CC62CB32FB65A /* Flames0028.png */,
+				F0C06D5E965FCF2EBE9528ED5D52B6DA /* Flames0029.png */,
+				494874060877B3CA9ED98067B9390265 /* Flames0030.png */,
+				DBDBC9CA950046A0A60E5C3B7FA80278 /* Flames0031.png */,
+				CCAC268EC3EC7B558A307DCEDE11903F /* Flames0032.png */,
+				F0588D9A4CEE7E72739221636BBB6FB9 /* Flames0033.png */,
+				944975D6E459DBF9AF6AE7DD50C2C1B8 /* Flames0034.png */,
+				C4A626B4E43864993A939BD46E3B4063 /* Flames0035.png */,
+				88C784C190505F53E6406FB49E40D997 /* Flames0036.png */,
+				3A2C5F36CFE88279F7F02CBCB1A3CAB1 /* Flames0037.png */,
+				6BA5CB158D10AC89388CCB29C041C682 /* Flames0038.png */,
+				8625A3D60315691FCC6FAA31801F7BFB /* Flames0039.png */,
+				A117EC2FB51224AB9AB269CE32D54206 /* Flames0040.png */,
+				3BF4F88C965D8413DE4CCA800F4A2394 /* Flames0041.png */,
+				FE0C8604E6926440B65794ED8F058261 /* Flames0042.png */,
+				61799EDD5830D55E71AD1639349D55D2 /* Flames0043.png */,
+				47968B017411FF655509B4CEC7766679 /* Flames0044.png */,
+				40AEE7413435CA4018290E673AF3040E /* Flames0045.png */,
+				CD2EBBD37CEA64A9278DFC8FC188C3B9 /* Flames0046.png */,
+				053CEA473A940DFA8B89A1F4F1DFAD0D /* Flames0047.png */,
+				5B13C08150A381CC6F4FB1F053B658A3 /* Flames0048.png */,
+				BCD124A0DE6D7D263D9E432418E55A75 /* Flames0049.png */,
+				7C14F91A8BA91B621B330B7784C14B6D /* Flames0050.png */,
+				9D7640E1740E6C99C8E2F513DD0EE99A /* Flames0051.png */,
+				DB807AB9BC8EBE5F3F11D4345C83B3E6 /* Flames0052.png */,
+				17C50A36AB34DD886B6AC75D1DCFCF16 /* Flames0053.png */,
+				4DCBEF5FB0B3319D1C6F1BBCEF576A6F /* Flames0054.png */,
+				10D0C49BB323337A307B207A43CD2523 /* Flames0055.png */,
+				F3242C3BA874CA5FB902F95E57C03320 /* Flames0056.png */,
+				C07F477B2CEAB5B7563B5ECE149B2E0E /* Flames0057.png */,
+				7608AB88E7A269A609A322AF60884454 /* Flames0058.png */,
+				D09F4D733651D44F5F7182C4BDFC7CD4 /* Flames0059.png */,
+				A9EB08D81EE86EC2E4349902ABD80CE9 /* Flames0060.png */,
+				E7D1D3E2C518C3FB4085B56F34F2E06F /* Flames0061.png */,
+				95CFDC9702609533BC36784E290B4340 /* Flames0062.png */,
+				60F544F23E626883007CC062A979B5E4 /* Flames0063.png */,
+				A4F062A3072AC19D12D225A0900D1A4A /* Flames0064.png */,
+				9544C92505C9EAE3D6225DCE1A03C91E /* Flames0065.png */,
+				F6D53B6D928BD46EB8DF9DA0DB678820 /* Flames0066.png */,
+				6B94D8282C44F49D9D4D96AE359A7ABB /* Flames0067.png */,
+				5F99F094B4C50CF4F35DB28AAE674E26 /* Flames0068.png */,
+				C6EF41B9C61F12FAF954722B1BC94485 /* Flames0069.png */,
+				CD5C7C47B0EAA0601E2B873663ADD23C /* Flames0070.png */,
+				0F7A3418F1AEEC89E95842884F2F1AC6 /* Flames0071.png */,
+				F45A3F5B22998C08B803C21C3CE8CA47 /* Flames0072.png */,
+				FAC04061C86C9DFA621587C67702DE04 /* Flames0073.png */,
+				CA92840DA4081F53DB54EB407E81DDA8 /* Flames0074.png */,
+				B6104F85C3B2185FBCEAA9EADE663028 /* Flames0075.png */,
+				B20881A7C60A50088E6E868F2F10C3CE /* Flames0076.png */,
+				8D9D1A23CD4084CE019B42830F62D0D1 /* Flames0077.png */,
+				41109A5288ED4D652F0FD839C2032BDE /* Flames0078.png */,
+				51515E477723DB9EBCE696A1F3099C38 /* SoupView.xib */,
+				B6E7BD1A1DB1D34000C30708F362DA87 /* carrot-path-only.svg */,
+				909F8115515F1ECE12D93DD3E5BDB361 /* carrot@2x.png */,
+				0166E2703F2FC42F5551CC7EC60A74F2 /* circle@2x.png */,
+				C109A0C66B766BE9231785E6F18ACC75 /* cover-path-only.svg */,
+				5DA20CFA041DF3B6523791C16710ECB6 /* cover@2x.png */,
+				688F032DF3C7D37E8280537F1E94AF92 /* pan@2x.png */,
+				4C195C773C4A1D8592C8DBB22EFD16F5 /* pea-from-left-path-only.svg */,
+				5AE39EB8B663258843222130D873D541 /* pea-from-right-path-only.svg */,
+				768CE8A71F91C3259B11F04D2FE4B766 /* pea@2x.png */,
+				0252BB8C8B5D23363EC6340A1D3339D2 /* potato-path-only.svg */,
+				B4D70F14DBC85893C9FC97279F317F2D /* potato@2x.png */,
+				67A82D7F2A4B8C3321D69E4335E3E300 /* shadow@2x.png */,
+				A3D6DD280E5D8AFAB50EAE869ACF3F57 /* water@2x.png */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4439CC46985C53CF3DB1070A460E9590 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F889B3ABC234F51B39F3552E5EDADB0 /* Info.plist */,
+				8ADFB3B21586CFCF53551C013A7BEBED /* PullToMakeSoup.modulemap */,
+				E5E7902C0AD99EBCAC53DF563F30AF6A /* PullToMakeSoup.xcconfig */,
+				6D2930491CD382ED09D36C4EE0D19CFB /* PullToMakeSoup-Private.xcconfig */,
+				BF46298CD95E4F705E6BF243D95DEF28 /* PullToMakeSoup-dummy.m */,
+				F2B24DD8F1CAA0C1D09372320A9E4E6B /* PullToMakeSoup-prefix.pch */,
+				7564DC0E3F74714C645DC29CC5C41279 /* PullToMakeSoup-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PullToMakeSoup";
+			sourceTree = "<group>";
+		};
+		49DF1778441645A512075FE18FCBE6FA /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				45CB2813876853A56954AE797A2DF70C /* MASCompositeConstraint.h */,
+				1CBC7E0B67B9BD23201499C12045669A /* MASCompositeConstraint.m */,
+				5F8373CCB80265C00BFFD99B20490A2D /* MASConstraint.h */,
+				97B45A4A5445CA57417D6E73D5C77918 /* MASConstraint.m */,
+				DD4B9AF86384C4A78D3814DF6EFE667F /* MASConstraint+Private.h */,
+				A172C562C2D682442C73A5D578C059E4 /* MASConstraintMaker.h */,
+				DB01F1B4D2B972E69028D991620D1D5F /* MASConstraintMaker.m */,
+				67953A8704F9867521C0267E8D5198DB /* MASLayoutConstraint.h */,
+				9BB50D18C4F861A587E8DC50B7AAEB85 /* MASLayoutConstraint.m */,
+				72CFE101EB6376D5AEE805439F645731 /* MASUtilities.h */,
+				5DB39E116CB3C6726B3ACB3A8A6CA401 /* MASViewAttribute.h */,
+				881C80BE45F5584575DF3E3BFBC59C38 /* MASViewAttribute.m */,
+				63C8C7020CE81A0B533EF5CC52AFDE97 /* MASViewConstraint.h */,
+				CE9838B5B8EE4CE0F7660E3D99DEDC07 /* MASViewConstraint.m */,
+				0062F28EC7A00BDA2CA9C06AD3E2548E /* Masonry.h */,
+				BB076D6773BAC77FE0DADC91A13BBA34 /* NSArray+MASAdditions.h */,
+				C8C814041A9B2334C05611EC6529AFE1 /* NSArray+MASAdditions.m */,
+				22169BAA40B7BC7131BF993B45045DA1 /* NSArray+MASShorthandAdditions.h */,
+				257CD8130DAA5520398F928DA4B99E35 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				5A2C46A4FEB73519C0E5D8DB0B4FC2D1 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				6BF781FD1A4088EDFCFD36D538E7DEA0 /* View+MASAdditions.h */,
+				E473D0B3508F4086568B145916F42A0E /* View+MASAdditions.m */,
+				E551A37BEAACE4D40DA86E44CFA80263 /* View+MASShorthandAdditions.h */,
+				C435C3D635029CCE34C9F796AE35E79F /* ViewController+MASAdditions.h */,
+				392E36A7404B111C5F0181923144A056 /* ViewController+MASAdditions.m */,
+				52368E2E1B152C3AD81AA651167EB910 /* Support Files */,
+			);
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		52368E2E1B152C3AD81AA651167EB910 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B28B783A931B8A46DCFCD6888AD925B /* Info.plist */,
+				83BEE729743A412C3AD874F05A8AF463 /* Masonry.modulemap */,
+				5311AC62CE0C933307E9CAE3B8FCC1CF /* Masonry.xcconfig */,
+				FB3D1C61E15B5B1C6EC6268CC99AA779 /* Masonry-Private.xcconfig */,
+				47D8102EC0F5CEF29B3D752D66A0F787 /* Masonry-dummy.m */,
+				6BC9B868E06F4C9F40AB9B48D275AFA3 /* Masonry-prefix.pch */,
+				3E29E8E766433AD7B09D82BAD30E5B70 /* Masonry-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		6CCDC111982CE4C57A3EDB6431DFB2AC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				92917C193B4A77D198B981D3A4B02FAC /* Info.plist */,
+				4C27178FAEFDF7CFD1C192A44D9A4BE0 /* YALSideMenu.modulemap */,
+				B9C92F75510908CC665A24CD6F149B0B /* YALSideMenu.xcconfig */,
+				1823C384DCD227E0A76B3B8B7D960E88 /* YALSideMenu-Private.xcconfig */,
+				1D6CF920EC2418CD379B8FF4DFAED872 /* YALSideMenu-dummy.m */,
+				85647717B5BB96E5997D33B22A7441D8 /* YALSideMenu-prefix.pch */,
+				862ECB0FFD653141E3D0340CDA86733D /* YALSideMenu-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/YALSideMenu";
+			sourceTree = "<group>";
+		};
+		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
+				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
+				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
+				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
+				A4D79713B67165A05F67F0DC315A32A8 /* Pods-dummy.m */,
+				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
+				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
+				C75BB87138FA0B6ABAD350B1448532BE /* Pods-umbrella.h */,
+				59291B55F6619307B12DB91F1C387AC7 /* Pods.debug.xcconfig */,
+				A2D73ECC23ACDFA8BC07923BF665AC93 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		77E3F24D24B70EF13F44DD3997CD2FBC /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AE2257599AC7CB4B26B5B143151D5E92 /* CoreGraphics.framework */,
+				711379BE40398BDB6852F995ACAC5F81 /* CoreText.framework */,
+				93E885637FCD64FDC0A1489EBB09ECC8 /* Foundation.framework */,
+				E144274B7EF40C3A5812291A052109ED /* QuartzCore.framework */,
+				2279BA5B85798134DE15308191723CF9 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7C2CA3CB2B584C77E3B5B08A2FB83807 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7E613AE8109B5A63654B452CED7701CE /* Info.plist */,
+				58C4DBBD5AE837D0FA3D2BCA5A9AD680 /* jot.modulemap */,
+				C4FB2847136C2D3E23E11131EE01196D /* jot.xcconfig */,
+				63C6CA43F234A1119CFE0320AE1AD312 /* jot-Private.xcconfig */,
+				0B1938D92544D68350328B16C34628D1 /* jot-dummy.m */,
+				EBDC17CE9C1D9AC50996D02534E04546 /* jot-prefix.pch */,
+				1C426F598E861900F1DCD0BBACDF9A26 /* jot-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/jot";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				1B4827BBB4A3D08B028C267142DEE3C9 /* Frameworks */,
+				202A0478737A99D0D91F7F92272E1736 /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8104D2375D06C2B2FBC530ACF8A0CF82 /* YALSideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				0E24710085BDCF19F9CBF8BD91B1E2F6 /* Menu.swift */,
+				DDCAD6BA0A73947B0A19990BEC66DB21 /* MenuItemsAnimator.swift */,
+				BE42C966090BA0D9E0FBAFCA20EF4962 /* MenuSegue.swift */,
+				B740A2D3160DB4D18C57962AE319F607 /* MenuTransitionAnimator.swift */,
+				6CCDC111982CE4C57A3EDB6431DFB2AC /* Support Files */,
+			);
+			path = YALSideMenu;
+			sourceTree = "<group>";
+		};
+		9BC2E439948C9B9490797C062C4FD1DF /* DZNEmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				78BF284936E0009D8C14C0F818674FCD /* UIScrollView+EmptyDataSet.h */,
+				869A95F54C2EEB913D56F9CEBEF3FD00 /* UIScrollView+EmptyDataSet.m */,
+				121D267229EC34A7C79835487D132528 /* Support Files */,
+			);
+			path = DZNEmptyDataSet;
+			sourceTree = "<group>";
+		};
+		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B8B632B6E57809201EE5DD8D14F2806 /* DZNEmptyDataSet.framework */,
+				C347DF125D50F23CB2D3A99830CFF9CA /* Masonry.framework */,
+				CAF6C42EB191AB39FA705117546A8F8C /* Ophiuchus.framework */,
+				E3DAFEA4745EC2CCCA7E1E53CCF20AAC /* Pods.framework */,
+				07476CCF0D872E30497D6BAB08DF3C63 /* PullToMakeSoup.framework */,
+				7BCDCE6F2ACEE856F03C52A0B5463AA4 /* SideMenu.framework */,
+				DF137AAFFC984600E0619DC4537C4769 /* jot.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D2EE602546C0B4AB510FD693BD6BB41E /* Ophiuchus */ = {
+			isa = PBXGroup;
+			children = (
+				B9590D51983B8BB84017D3FAED891991 /* NSAttributedString+YAL_TextBezierPath.h */,
+				649E9D4427C6D6CB10CD977491620321 /* NSAttributedString+YAL_TextBezierPath.m */,
+				42C8B2E55277C268AF660FED012D3ED0 /* UIBezierPath+YAL_Utils.h */,
+				2EC8E8DF70F40EFB0A39BA45CA3BD571 /* UIBezierPath+YAL_Utils.m */,
+				C490EDA32DDAC3185D245545236162A5 /* YALLabel.h */,
+				7163A0672D9704B62D2B01FBB941299B /* YALLabel.m */,
+				598EB0C2A5E873BC523A6199BE7D724F /* YALPathFillAnimation.h */,
+				9AD7CCC88005CF936B8A355C155237C8 /* YALPathFillAnimation.m */,
+				A6D4BEFAFAA3016D98BCCE7D27BFC4A8 /* YALProgressAnimatingLayer.h */,
+				5AB7A9A12ACEE2A84D8AA542AA9DE9CD /* YALProgressAnimatingLayer.m */,
+				75B1DB065CFADD8AC959C2AED28D931F /* YALTextLayer.h */,
+				DD8AD07B3410C0D9CC35459BF945EDB3 /* YALTextLayer.m */,
+				E33A5B4CBECF4BB1500E5E463DDD80E2 /* Support Files */,
+			);
+			path = Ophiuchus;
+			sourceTree = "<group>";
+		};
+		D8194D8BEBD5357FBE6F2358EDBBE364 /* PullToMakeSoup */ = {
+			isa = PBXGroup;
+			children = (
+				EC3D195E4C62AD941A6B7991C58F0089 /* CAKeyframeAnimation+Extensions.swift */,
+				3FF30BD899326A1F58C44586B6EBFB18 /* PocketSVG.h */,
+				45541C94663BCBDFF86E9329D50C024B /* PocketSVG.m */,
+				D57D34F0175893A0AD696FD854BF6E65 /* PocketSVG+Extension.swift */,
+				65AE50FB0AE8B9F3CB046AEB62EB01DB /* PullToMakeSoup.h */,
+				8FA9F69A0630041FAA05170F4A104A2D /* PullToMakeSoup.swift */,
+				621EB1054CD9C54D02E89D0D26118BDE /* PullToMakeSoup-Bridging-Header.h */,
+				2DCB7E24BB590101FF7BE723B7C654CB /* PullToRefresh.swift */,
+				3390F84B5BF43C2D5C28626347B86730 /* UIScrollView+PullToRefresh.swift */,
+				3706A13908CD6CD2970E0FF4134070C2 /* Resources */,
+				4439CC46985C53CF3DB1070A460E9590 /* Support Files */,
+			);
+			path = PullToMakeSoup;
+			sourceTree = "<group>";
+		};
+		E33A5B4CBECF4BB1500E5E463DDD80E2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				65F9804FD214285054478BA71368AE8F /* Info.plist */,
+				6AED3B116DF8C14BC104316DD356EF76 /* Ophiuchus.modulemap */,
+				0B3B094EC43A40341269962FE0BB6C46 /* Ophiuchus.xcconfig */,
+				33292C1A8CF4239359021387C6CDA929 /* Ophiuchus-Private.xcconfig */,
+				F2CD38AA2D6F4B8964B3430AB4D9F96B /* Ophiuchus-dummy.m */,
+				479851128662A39EB5CEA9489C42D27A /* Ophiuchus-prefix.pch */,
+				5E4ED6E174D5366939725F26B146FA2E /* Ophiuchus-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Ophiuchus";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		383D81914EFF263978F8C7FE657B816A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17EDC5B9EB0B022B50F13C7B6087F482 /* MASCompositeConstraint.h in Headers */,
+				824862B9329FF8D76385C4AFC5651201 /* MASConstraint+Private.h in Headers */,
+				D1AB6B8CBE438B65915D21E513D02D39 /* MASConstraint.h in Headers */,
+				9402A6298B510E0B0D45A04298B01944 /* MASConstraintMaker.h in Headers */,
+				45E0D504C7E441A98AC979D368E7D100 /* MASLayoutConstraint.h in Headers */,
+				230C7D61488F9CF6051892D9BA830F4E /* MASUtilities.h in Headers */,
+				97485BE55B54DA24AF439C2495DC4B67 /* MASViewAttribute.h in Headers */,
+				2CAF61FD87A10F771AA58FBB7F5C5F9C /* MASViewConstraint.h in Headers */,
+				361504065C1D17688DAFC6FFE12F7BB7 /* Masonry-umbrella.h in Headers */,
+				13B8111545E4A3F85725E8B422732D3A /* Masonry.h in Headers */,
+				09CFD8B679A80233CA7CBA0A072E6F61 /* NSArray+MASAdditions.h in Headers */,
+				811B27CCACBCC7DE2C2AA962DEB8D184 /* NSArray+MASShorthandAdditions.h in Headers */,
+				7F2A4CD551DEE975FF2BB0F90DFB79FE /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				9A9F45B09C11724C8D26E2BAE51E5E2E /* View+MASAdditions.h in Headers */,
+				07383EE5EBF402ABD4A655F393AF4EB0 /* View+MASShorthandAdditions.h in Headers */,
+				20C3A2F2925898E0B4EF7CD4AFB6CA23 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6E5EEC0637C0FDD92E420CA226474BE7 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59B52DD94785053833ADB888C937FFFB /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		70121380EB84AD76C7F393E65773691D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F3E49768B06CAF90E8F69081CDB65CA /* JotDrawView.h in Headers */,
+				AB028ABB62A80B0CB601BF5C8FBCFD88 /* JotDrawingContainer.h in Headers */,
+				7E95B622590F64EBBA07AE1A49EBD372 /* JotTextEditView.h in Headers */,
+				BE622D3D0E5D0C3ACC048C05D8236533 /* JotTextView.h in Headers */,
+				245D9449BA62B0B0B5023454E1E33AEA /* JotTouchBezier.h in Headers */,
+				DA1DC15F62CCA0C48B9192015C9087A7 /* JotTouchPoint.h in Headers */,
+				2F40A8906E12AD174741A3A97476664A /* JotViewController.h in Headers */,
+				47876D840024D24FEDA0F3468F194C6A /* UIImage+Jot.h in Headers */,
+				4FAD24CE46BBF44DE8E3BFF73353473C /* jot-umbrella.h in Headers */,
+				427DCD38DA146F21D6AE432EDDD8F3F3 /* jot.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75C7C40AE74AE556F91E7ADD166CAD66 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D76FA03DDD605503F07569D9D346950 /* PocketSVG.h in Headers */,
+				F8979BFFCB8AEAB7D77FB2A48CCAAB75 /* PullToMakeSoup-Bridging-Header.h in Headers */,
+				7686AB4075665DAA9F35295FB837C358 /* PullToMakeSoup-umbrella.h in Headers */,
+				392A4CA893AA65192F11F3811550C907 /* PullToMakeSoup.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D08E3B597075DD0287056C50218E6F3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B53678D305BDB5CB7920E335C5FB75E4 /* DZNEmptyDataSet-umbrella.h in Headers */,
+				1A06FC34E46B6BA4C4732B626E149A93 /* UIScrollView+EmptyDataSet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA87A243724C42B99B58AE1CA2608222 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B86D8C1455CBE3C24D8096338F90B07 /* YALSideMenu-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD31B43405E56F4CE57DB5752AF5BE3A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA560AEBDF83B4C40FD2AC35E2F3A48B /* NSAttributedString+YAL_TextBezierPath.h in Headers */,
+				F7240AB500A79FC5EB8F1E60519FF39A /* Ophiuchus-umbrella.h in Headers */,
+				09F5A411434E581499D9AC326EFEDF10 /* UIBezierPath+YAL_Utils.h in Headers */,
+				AE9626DCF9A8D7821AD74DD975120646 /* YALLabel.h in Headers */,
+				406CB1BF048B8A38EE1970D1500BD3A7 /* YALPathFillAnimation.h in Headers */,
+				FF6051E14F50F3225E99F92E316B5879 /* YALProgressAnimatingLayer.h in Headers */,
+				43A6EFC3E69E76E58D31CC70B9B96F51 /* YALTextLayer.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F6A690194CD2F9B6B605D6117D16B83 /* DZNEmptyDataSet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59BC224C15123484C1C293C3D8D1425C /* Build configuration list for PBXNativeTarget "DZNEmptyDataSet" */;
+			buildPhases = (
+				20811CE7683976DD6EA629006E0403F3 /* Sources */,
+				1D498204094EAE85C636BC3F3B7C9353 /* Frameworks */,
+				7D08E3B597075DD0287056C50218E6F3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DZNEmptyDataSet;
+			productName = DZNEmptyDataSet;
+			productReference = 4B8B632B6E57809201EE5DD8D14F2806 /* DZNEmptyDataSet.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		37736DFE5C6689004C078BEB195B908B /* Ophiuchus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B759A5AC30A8249568A85C052321BAB6 /* Build configuration list for PBXNativeTarget "Ophiuchus" */;
+			buildPhases = (
+				41F11E1C3731F5DAB0B43BFB7B028222 /* Sources */,
+				3008F02A0B39CDC2CC2AAEB43BA188D8 /* Frameworks */,
+				FD31B43405E56F4CE57DB5752AF5BE3A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ophiuchus;
+			productName = Ophiuchus;
+			productReference = CAF6C42EB191AB39FA705117546A8F8C /* Ophiuchus.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		547D0B1F80B5794DA9689FE5622C7229 /* PullToMakeSoup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6F4FDBA77606C93FF3A10AC1F9A54162 /* Build configuration list for PBXNativeTarget "PullToMakeSoup" */;
+			buildPhases = (
+				14A91ACD526051909D126276BC3B4B31 /* Sources */,
+				58B2F902C00BED9E70AF7C02853A69E1 /* Frameworks */,
+				75C7C40AE74AE556F91E7ADD166CAD66 /* Headers */,
+				ECCA85EEF939862A4767A84FF16E3AA2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PullToMakeSoup;
+			productName = PullToMakeSoup;
+			productReference = 07476CCF0D872E30497D6BAB08DF3C63 /* PullToMakeSoup.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5821AC18D5995DD0A1EED64D28C6C7EB /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EAA30896C80363B3FAB3AE3A6721C062 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				3DABEB95EDEDE243F6FB1AF19905D802 /* Sources */,
+				07E1ABB15857339CBB1FD009255149E3 /* Frameworks */,
+				6E5EEC0637C0FDD92E420CA226474BE7 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7A62514163AE445EFC02E5D6CB512073 /* PBXTargetDependency */,
+				D152AAF90A628D868E6D4082B538D9D0 /* PBXTargetDependency */,
+				8016C1A03F67B619395BF91CFA59069F /* PBXTargetDependency */,
+				5C3BAEB5AD8EC3DF5E7A894585BD0CF6 /* PBXTargetDependency */,
+				DF87DDD99961285DE8FAE6895414F09F /* PBXTargetDependency */,
+				EC83C6E81542E05B0E418B8A4FA65EB0 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = E3DAFEA4745EC2CCCA7E1E53CCF20AAC /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5066A94524E56E0ADC32D2F76A703B4 /* Masonry */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0F762EECAF29D429F2083369EE711D7F /* Build configuration list for PBXNativeTarget "Masonry" */;
+			buildPhases = (
+				397BFBF6DBF36ED4C5A43C95794DD3AC /* Sources */,
+				A51CE345DA4160EC12D719AF58BF3B65 /* Frameworks */,
+				383D81914EFF263978F8C7FE657B816A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = C347DF125D50F23CB2D3A99830CFF9CA /* Masonry.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B54378F7BC6B44B5395B876BD659CDC6 /* YALSideMenu */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0EE9A6C8DED7D3E34E05689F44A5232 /* Build configuration list for PBXNativeTarget "YALSideMenu" */;
+			buildPhases = (
+				CDA30E5EC599612D21D21683C0418364 /* Sources */,
+				C649BC8FDA3D2B79A60AC3A484BFB3DE /* Frameworks */,
+				DA87A243724C42B99B58AE1CA2608222 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YALSideMenu;
+			productName = YALSideMenu;
+			productReference = 7BCDCE6F2ACEE856F03C52A0B5463AA4 /* SideMenu.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D21D259B485C8B765C2BF645CF0D17EA /* jot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99726621A4AE161690E3D4EB1DAF0052 /* Build configuration list for PBXNativeTarget "jot" */;
+			buildPhases = (
+				E9BECA5BFD5124A79A4AD9B897A64B06 /* Sources */,
+				12A018486053F7D6368348D4C77C613E /* Frameworks */,
+				70121380EB84AD76C7F393E65773691D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62746A392DCCC230F60C353EA1810B64 /* PBXTargetDependency */,
+			);
+			name = jot;
+			productName = jot;
+			productReference = DF137AAFFC984600E0619DC4537C4769 /* jot.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0F6A690194CD2F9B6B605D6117D16B83 /* DZNEmptyDataSet */,
+				B5066A94524E56E0ADC32D2F76A703B4 /* Masonry */,
+				37736DFE5C6689004C078BEB195B908B /* Ophiuchus */,
+				5821AC18D5995DD0A1EED64D28C6C7EB /* Pods */,
+				547D0B1F80B5794DA9689FE5622C7229 /* PullToMakeSoup */,
+				B54378F7BC6B44B5395B876BD659CDC6 /* YALSideMenu */,
+				D21D259B485C8B765C2BF645CF0D17EA /* jot */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		ECCA85EEF939862A4767A84FF16E3AA2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8561EB3867F72BB2B5ED79767EE7C455 /* Flames0001.png in Resources */,
+				8011EC82A4B01F61BEFEADC497779BE0 /* Flames0002.png in Resources */,
+				BFB52CC4E467874FF9FED0DA600703CA /* Flames0003.png in Resources */,
+				7641D9015A5601A5882FA50F2AAD2C67 /* Flames0004.png in Resources */,
+				E9C209C5B76DF1633722CAF5975E89DF /* Flames0005.png in Resources */,
+				81160E68DA90F1440F59461C53166D14 /* Flames0006.png in Resources */,
+				8A13B17E1CFCABF6D1EEBF4288B1A96C /* Flames0007.png in Resources */,
+				594D34110D268905F5F032E00D0C7AA7 /* Flames0008.png in Resources */,
+				90FD4CAF176379EBE0351C00130B6468 /* Flames0009.png in Resources */,
+				CFC4C77BB005A8F03782308254FC7C11 /* Flames0010.png in Resources */,
+				5F7DA685DF0F206C28F07301E5085439 /* Flames0011.png in Resources */,
+				13FE3E8A6E6CC22AFAD57FB4EE7683AF /* Flames0012.png in Resources */,
+				ECBB77B2FB0C23D43130DA060514F7B6 /* Flames0013.png in Resources */,
+				9624068533742D5B5CD0FC672B4CB222 /* Flames0014.png in Resources */,
+				58445119A9345E924DC990C45611A5B8 /* Flames0015.png in Resources */,
+				09730E88974DCD4D09E75F5A61244BA9 /* Flames0016.png in Resources */,
+				9D0B0916552872E69E036D22802BC107 /* Flames0017.png in Resources */,
+				08174D25CC1AE87ABA70AA7EF2917116 /* Flames0018.png in Resources */,
+				ACB8285444070755B5112D1BA2BED8B1 /* Flames0019.png in Resources */,
+				AC9F89A77C95882931609FD0DA473B75 /* Flames0020.png in Resources */,
+				8E6A3CEDD5CC7A32FB22815F42C200FA /* Flames0021.png in Resources */,
+				48BFF88C9DF6AE99DB13ADAD85572C9F /* Flames0022.png in Resources */,
+				C5F476D8D9ED167937C24A1E777E8D98 /* Flames0023.png in Resources */,
+				6B0F650EB0E75582C0ADC426CA7BBE6D /* Flames0024.png in Resources */,
+				53E0542B4739FE897BA68E038EBE9E9A /* Flames0025.png in Resources */,
+				600BD2F320E22E21E7B8FA4EB00421D8 /* Flames0026.png in Resources */,
+				E89CEE0E710DCEC13C1765890A48042C /* Flames0027.png in Resources */,
+				ADF6F7A25DFF8C3F276D7CEBAE99F744 /* Flames0028.png in Resources */,
+				518CCA89DD9C02CCC7B4B37FE17FA355 /* Flames0029.png in Resources */,
+				55E04D740258182D60A9376C94BBEA78 /* Flames0030.png in Resources */,
+				928D7D251D137E5977A01335E1C4E63C /* Flames0031.png in Resources */,
+				D590876A79F915001E150C75AE2FE762 /* Flames0032.png in Resources */,
+				B83B7098022BDE18FC349B564262E939 /* Flames0033.png in Resources */,
+				EE7EE5693AA0B05F7FE6E90E93E3C90B /* Flames0034.png in Resources */,
+				71E2AA8543900FD783FD6EF223CE5BA1 /* Flames0035.png in Resources */,
+				201E9C12D13980DE6FEE89F1B7C77C92 /* Flames0036.png in Resources */,
+				6260A260073C94912E284CDE469C9876 /* Flames0037.png in Resources */,
+				E31B2F593E3A467B14DEB75DAF4E069B /* Flames0038.png in Resources */,
+				6A4AD21519E80E78FBA43A79B37DB73A /* Flames0039.png in Resources */,
+				D7969069E087CD2B8A2C2E237F27351F /* Flames0040.png in Resources */,
+				F78771E1AFA09B9478A8355EF2309608 /* Flames0041.png in Resources */,
+				7BD95E043ACE826D3A5ABE4010C6105E /* Flames0042.png in Resources */,
+				609E93DB656B22E4F0188B6F296466EB /* Flames0043.png in Resources */,
+				01CF171D31620361FFE90107C7827ED6 /* Flames0044.png in Resources */,
+				FC3B9D888CB59448E3ED9BD814BA4F03 /* Flames0045.png in Resources */,
+				F25516034893645D62796501129CDB2B /* Flames0046.png in Resources */,
+				3CE02B144E8E7B58756C546C0684AA23 /* Flames0047.png in Resources */,
+				E3234A4FA5D5704DEBB62D178EAFAE51 /* Flames0048.png in Resources */,
+				F6D15CFCC4CCCA5AA5421EEBE90E1D3F /* Flames0049.png in Resources */,
+				345A132E8D86F4E6343C11D666E9435C /* Flames0050.png in Resources */,
+				8E51E2FDB04196BCEB7CD29C720C22DD /* Flames0051.png in Resources */,
+				7086FAE213009F655CEECBA226867420 /* Flames0052.png in Resources */,
+				D9534BFF234CD55AB1E92A6574D1D80C /* Flames0053.png in Resources */,
+				A7E0A14F964DCADE8FBA6136D62FF4A2 /* Flames0054.png in Resources */,
+				A3DFBACBF215D9FC8EE39D9F743AAE8E /* Flames0055.png in Resources */,
+				5B5FB1A57F21E0511213CF6DF96F0BFE /* Flames0056.png in Resources */,
+				9148F8D5C0B564946B953236EFD71DD7 /* Flames0057.png in Resources */,
+				672FF772D8B06B25009D80EFD651FBAD /* Flames0058.png in Resources */,
+				C6FBE137AD121B89776CBE6926EFB227 /* Flames0059.png in Resources */,
+				2E61A93D5C432B490C2E60795C346388 /* Flames0060.png in Resources */,
+				42D4B4111270F9958464BC0F15C30409 /* Flames0061.png in Resources */,
+				92989324CBE155F9AB65A0ECB1494818 /* Flames0062.png in Resources */,
+				B99E3A4A4EBF1FE2BF10454D0766CA1B /* Flames0063.png in Resources */,
+				45A36A08551B4A6B07D36BD99C325E64 /* Flames0064.png in Resources */,
+				6DC0563BF5707A7BCD2AA321055355F6 /* Flames0065.png in Resources */,
+				536BDAE110B8AC4614849BD344A5E6F0 /* Flames0066.png in Resources */,
+				CFE718A281B7738EF8547614105190E7 /* Flames0067.png in Resources */,
+				C753C2593FA2D774565EAAE9F37956DB /* Flames0068.png in Resources */,
+				8BBEF89B554895CB81787DEB7938AA77 /* Flames0069.png in Resources */,
+				EAAA23891E873889AFDE55FA1018BB50 /* Flames0070.png in Resources */,
+				ED748F8CD47BB52DBF8940C105771AF4 /* Flames0071.png in Resources */,
+				86AEA756CB2B9775B5297E660BED943A /* Flames0072.png in Resources */,
+				FB5E12413BAF768FE3EEB2EA3681369C /* Flames0073.png in Resources */,
+				BEE4C6364443F490A524BC66E38FFAE1 /* Flames0074.png in Resources */,
+				8EAA3F859FDDC5A8462414380CD3655A /* Flames0075.png in Resources */,
+				6E69CD324E8562012C7CB8D77AF604D7 /* Flames0076.png in Resources */,
+				B4736BC8DBE46D3A4BEFC654AB2F9659 /* Flames0077.png in Resources */,
+				31ADBD5E21F1F6D566C80004FBFDAC86 /* Flames0078.png in Resources */,
+				CAE120D16B5DD4A6250E9D7CB18F98AF /* SoupView.xib in Resources */,
+				69FD85FC84D2792D0621988D0236D9EB /* carrot-path-only.svg in Resources */,
+				285FE1A54B5EBC737CDCDB49542F5B74 /* carrot@2x.png in Resources */,
+				E0349E2A02BA074871F315AE46D48FF1 /* circle@2x.png in Resources */,
+				35450FF4800CEB4E231DDC0E6D437D4F /* cover-path-only.svg in Resources */,
+				39163B3C1E7F6EC067BCC397DE751A17 /* cover@2x.png in Resources */,
+				5472301D3FCB780F9149578993BE6F02 /* pan@2x.png in Resources */,
+				48426317524DCCD98765CF132742F8B9 /* pea-from-left-path-only.svg in Resources */,
+				862FA302C1D9ADB7EC6BD1859CB68854 /* pea-from-right-path-only.svg in Resources */,
+				F4F248E3C73A6CAF573CAB856E771751 /* pea@2x.png in Resources */,
+				AE56FBC4A3794AC91EBCCB714755124F /* potato-path-only.svg in Resources */,
+				B46CE232D8FFA85B2DBC4C956DACF8A1 /* potato@2x.png in Resources */,
+				DBC03BB08C0FB553D630046AD6D1D743 /* shadow@2x.png in Resources */,
+				AEB16D37899BF5F581641FFE0679ADA2 /* water@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14A91ACD526051909D126276BC3B4B31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				51F6AB6AA08D7304BFEDB90DB1D8B67A /* CAKeyframeAnimation+Extensions.swift in Sources */,
+				DFC5EEB1D1DC9BDB2E758B4054389212 /* PocketSVG+Extension.swift in Sources */,
+				F33A59F9E550AB32BC5ECDF9E20A3F98 /* PocketSVG.m in Sources */,
+				CD565D65A5A6A410B6A7480A335EB3F5 /* PullToMakeSoup-dummy.m in Sources */,
+				B49BE8D1FC8CA5C11806B585FCB4FB60 /* PullToMakeSoup.swift in Sources */,
+				97845F24C0FA5E272A1A03EE6D9F6A27 /* PullToRefresh.swift in Sources */,
+				D76BD58B95160E751F29105C20B388E9 /* UIScrollView+PullToRefresh.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20811CE7683976DD6EA629006E0403F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C2954F5D58DB5858AD7BCA1AC68A6CE /* DZNEmptyDataSet-dummy.m in Sources */,
+				3793D1B43E71BBEA23FBF2DD89481989 /* UIScrollView+EmptyDataSet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		397BFBF6DBF36ED4C5A43C95794DD3AC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B97E15970F9E117781F7DB33DF481920 /* MASCompositeConstraint.m in Sources */,
+				1C4BD6B4082EACD37C4F6BF087ACDEAD /* MASConstraint.m in Sources */,
+				DEE71184B41ECAFC81FD1E5F8F4E8628 /* MASConstraintMaker.m in Sources */,
+				5B7E1F1851C1E21A8D7198220B034A52 /* MASLayoutConstraint.m in Sources */,
+				FACC0108E153BFA196245D9D1FBE5BB3 /* MASViewAttribute.m in Sources */,
+				1AFF138E886A713235E379FABAA1C63B /* MASViewConstraint.m in Sources */,
+				DCDD5552D4A9172F06E65E0DEB4F45F1 /* Masonry-dummy.m in Sources */,
+				04717F4DB8F473CD0E8FF7DEC24AA163 /* NSArray+MASAdditions.m in Sources */,
+				12BBE8FAC88BCD77136DC0C339F517AE /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				198107FFA54981A9B55137161E505881 /* View+MASAdditions.m in Sources */,
+				8A18F28F03AD2CCAA2E8E88EFD1AE26F /* ViewController+MASAdditions.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DABEB95EDEDE243F6FB1AF19905D802 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15D3D006C75F574334BA8D290E00425 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		41F11E1C3731F5DAB0B43BFB7B028222 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE87E6BC0A119C8935F04D31B4D69D3C /* NSAttributedString+YAL_TextBezierPath.m in Sources */,
+				2CCD371E07D1FE7CC8782CEA08C0E760 /* Ophiuchus-dummy.m in Sources */,
+				E9FF62B5645613B7F35F7419DFCBD7C1 /* UIBezierPath+YAL_Utils.m in Sources */,
+				4084E6E6BA99DEAFDE82B5DC7D21AE41 /* YALLabel.m in Sources */,
+				EA56E437B3503093CD4BB9E1B5FEAA3A /* YALPathFillAnimation.m in Sources */,
+				EA9DD0E3D5DB4BEE2324EF97136758E2 /* YALProgressAnimatingLayer.m in Sources */,
+				BD2CAE7B8A78D8000A721057E3E1FCBA /* YALTextLayer.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CDA30E5EC599612D21D21683C0418364 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB8E64FC941906927C7F52C7ACCEC115 /* Menu.swift in Sources */,
+				17ECA8DD9E8527D466DBBB9665C1D060 /* MenuItemsAnimator.swift in Sources */,
+				93BA2E87A3AFB3EB43638C82562B08F1 /* MenuSegue.swift in Sources */,
+				6E862E5DC5C20167B658ADDB78174C78 /* MenuTransitionAnimator.swift in Sources */,
+				04E7F2503FAE0C261B56E64F4DB0A23D /* YALSideMenu-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9BECA5BFD5124A79A4AD9B897A64B06 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C28CD6D6A7AC108198B29C0D203B8908 /* JotDrawView.m in Sources */,
+				831A62FD7E3FBCBC6F813662E1935295 /* JotDrawingContainer.m in Sources */,
+				CDFABF6B63073801C88C775AFA2ECE83 /* JotTextEditView.m in Sources */,
+				0E6DD62B6C8E8436E78F70DA832AD654 /* JotTextView.m in Sources */,
+				80202ABB0ECBA7C4762F2EF5801983EA /* JotTouchBezier.m in Sources */,
+				2F30A375311614745A7B0355000D5673 /* JotTouchPoint.m in Sources */,
+				746A1233973DB075422EF22B6A9B99F5 /* JotViewController.m in Sources */,
+				9DB2764BA87C51CF550A9603B3250180 /* UIImage+Jot.m in Sources */,
+				1FF86800E22E73EBF16DB2EA9C599965 /* jot-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C3BAEB5AD8EC3DF5E7A894585BD0CF6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PullToMakeSoup;
+			target = 547D0B1F80B5794DA9689FE5622C7229 /* PullToMakeSoup */;
+			targetProxy = 17B0CD79BF92C8D1F9046659437F0BA1 /* PBXContainerItemProxy */;
+		};
+		62746A392DCCC230F60C353EA1810B64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = B5066A94524E56E0ADC32D2F76A703B4 /* Masonry */;
+			targetProxy = 8B4EF36D784830697C3D803FE0263843 /* PBXContainerItemProxy */;
+		};
+		7A62514163AE445EFC02E5D6CB512073 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DZNEmptyDataSet;
+			target = 0F6A690194CD2F9B6B605D6117D16B83 /* DZNEmptyDataSet */;
+			targetProxy = A7DA154B77E9E7691245B03BF9D2717F /* PBXContainerItemProxy */;
+		};
+		8016C1A03F67B619395BF91CFA59069F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Ophiuchus;
+			target = 37736DFE5C6689004C078BEB195B908B /* Ophiuchus */;
+			targetProxy = B1FB70FB154A32483D50369E70848F9F /* PBXContainerItemProxy */;
+		};
+		D152AAF90A628D868E6D4082B538D9D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = B5066A94524E56E0ADC32D2F76A703B4 /* Masonry */;
+			targetProxy = E7DA274BF371714427BF1F0EA77D0EE1 /* PBXContainerItemProxy */;
+		};
+		DF87DDD99961285DE8FAE6895414F09F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = YALSideMenu;
+			target = B54378F7BC6B44B5395B876BD659CDC6 /* YALSideMenu */;
+			targetProxy = 68FC35B97619B87808781D6CAD521FC3 /* PBXContainerItemProxy */;
+		};
+		EC83C6E81542E05B0E418B8A4FA65EB0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = jot;
+			target = D21D259B485C8B765C2BF645CF0D17EA /* jot */;
+			targetProxy = 990D4EF0BAA9BE90B266B8356B5D7B9B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		03D862860877281244335F8E657ACE1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB3D1C61E15B5B1C6EC6268CC99AA779 /* Masonry-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.6.2;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.6.2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17770710432AFB4345C49A11FAB785E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1823C384DCD227E0A76B3B8B7D960E88 /* YALSideMenu-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YALSideMenu/YALSideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YALSideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YALSideMenu/YALSideMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		190E0C64E473805C5FC0518AC413C4E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A2D73ECC23ACDFA8BC07923BF665AC93 /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		255C04F06D49EFA0C9CCCA0077BA670E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB3D1C61E15B5B1C6EC6268CC99AA779 /* Masonry-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.6.2;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.6.2;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Masonry/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Masonry/Masonry.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Masonry;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		33032BD1F529BF88707E763F87DAE7F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33292C1A8CF4239359021387C6CDA929 /* Ophiuchus-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Ophiuchus/Ophiuchus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Ophiuchus/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Ophiuchus/Ophiuchus.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Ophiuchus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		39F6C856950A8DB1BBD51F27E532167C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C6CA43F234A1119CFE0320AE1AD312 /* jot-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.3;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/jot/jot-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/jot/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/jot/jot.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = jot;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		445E4AD632E97A442CCC0DAA0A8AFDC8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B7AA6C5E8155A4C50EE2033022F23D7 /* DZNEmptyDataSet-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.6.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZNEmptyDataSet/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = DZNEmptyDataSet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		6F783E4E29AD82D9E2BF5CE598621979 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33292C1A8CF4239359021387C6CDA929 /* Ophiuchus-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Ophiuchus/Ophiuchus-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Ophiuchus/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Ophiuchus/Ophiuchus.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Ophiuchus;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		920F0BD2BE3C5F825EABC12604CF54DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 63C6CA43F234A1119CFE0320AE1AD312 /* jot-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.1.3;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.1.3;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/jot/jot-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/jot/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/jot/jot.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = jot;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BFAF251EA9922B9734C90E8FD721467E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59291B55F6619307B12DB91F1C387AC7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D182F136EFDFDCB25810D848EFDBC610 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D2930491CD382ED09D36C4EE0D19CFB /* PullToMakeSoup-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PullToMakeSoup/PullToMakeSoup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PullToMakeSoup/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PullToMakeSoup/PullToMakeSoup.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = PullToMakeSoup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DA79EDB91A00344FDD880AD467D623D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B7AA6C5E8155A4C50EE2033022F23D7 /* DZNEmptyDataSet-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.6.1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DZNEmptyDataSet/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/DZNEmptyDataSet/DZNEmptyDataSet.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = DZNEmptyDataSet;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E6A59BDD9616B7CEADBB001D79CB61FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1823C384DCD227E0A76B3B8B7D960E88 /* YALSideMenu-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/YALSideMenu/YALSideMenu-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/YALSideMenu/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/YALSideMenu/YALSideMenu.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SideMenu;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F3DBA80B7EFD4F6D9213E6E092805007 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D2930491CD382ED09D36C4EE0D19CFB /* PullToMakeSoup-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1.0.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/PullToMakeSoup/PullToMakeSoup-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PullToMakeSoup/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PullToMakeSoup/PullToMakeSoup.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = PullToMakeSoup;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0F762EECAF29D429F2083369EE711D7F /* Build configuration list for PBXNativeTarget "Masonry" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				255C04F06D49EFA0C9CCCA0077BA670E /* Debug */,
+				03D862860877281244335F8E657ACE1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				552D02D5BA751AC2E8790D2811D496CA /* Debug */,
+				10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59BC224C15123484C1C293C3D8D1425C /* Build configuration list for PBXNativeTarget "DZNEmptyDataSet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA79EDB91A00344FDD880AD467D623D1 /* Debug */,
+				445E4AD632E97A442CCC0DAA0A8AFDC8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6F4FDBA77606C93FF3A10AC1F9A54162 /* Build configuration list for PBXNativeTarget "PullToMakeSoup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D182F136EFDFDCB25810D848EFDBC610 /* Debug */,
+				F3DBA80B7EFD4F6D9213E6E092805007 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99726621A4AE161690E3D4EB1DAF0052 /* Build configuration list for PBXNativeTarget "jot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				920F0BD2BE3C5F825EABC12604CF54DA /* Debug */,
+				39F6C856950A8DB1BBD51F27E532167C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B759A5AC30A8249568A85C052321BAB6 /* Build configuration list for PBXNativeTarget "Ophiuchus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F783E4E29AD82D9E2BF5CE598621979 /* Debug */,
+				33032BD1F529BF88707E763F87DAE7F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0EE9A6C8DED7D3E34E05689F44A5232 /* Build configuration list for PBXNativeTarget "YALSideMenu" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E6A59BDD9616B7CEADBB001D79CB61FC /* Debug */,
+				17770710432AFB4345C49A11FAB785E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EAA30896C80363B3FAB3AE3A6721C062 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFAF251EA9922B9734C90E8FD721467E /* Debug */,
+				190E0C64E473805C5FC0518AC413C4E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
